@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprender Inglés</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f5f5f5;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .app-container {
+            width: 100%;
+            max-width: 400px;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            width: 100%;
+        }
+
+        .app-title {
+            font-size: 24px;
+            font-weight: bold;
+            color: #6610F2;
+        }
+
+        .counter {
+            font-size: 18px;
+            color: #666;
+            background-color: #eee;
+            padding: 5px 10px;
+            border-radius: 15px;
+            font-weight: bold;
+        }
+
+        .card-container {
+            perspective: 1000px;
+            margin-top: 50px;
+            margin-bottom: 20px;
+            height: 250px;
+        }
+
+        .card {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            transform-style: preserve-3d;
+            transition: transform 0.6s;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 15px;
+        }
+
+        .card.flipped {
+            transform: rotateY(180deg);
+        }
+
+        .card-face {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            border-radius: 15px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background-color: white;
+        }
+
+        .card-back {
+            transform: rotateY(180deg);
+            background-color: #f8f9fa;
+        }
+
+        .phrase {
+            font-size: 22px;
+            text-align: center;
+            margin-bottom: 15px;
+            line-height: 1.4;
+            color: #212529;
+        }
+
+        .unknown-word {
+            background-color: #FFE69C;
+            padding: 0 3px;
+        }
+
+        .flip-button {
+            position: absolute;
+            bottom: 15px;
+            right: 15px;
+            background: none;
+            border: none;
+            font-size: 20px;
+            color: #6C757D;
+            cursor: pointer;
+        }
+
+        .keywords-container {
+            background-color: white;
+            border-radius: 10px;
+            padding: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .keywords-title {
+            font-size: 16px;
+            margin-bottom: 10px;
+            color: #6C757D;
+        }
+
+        .keywords-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            justify-content: center;
+            background-color: #F2F2F2;
+            padding: 10px;
+            border-radius: 10px;
+            border: 1px solid rgb(227, 227, 227);
+        }
+
+        .keyword {
+            color: gray;
+            background-color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 14px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .next-button {
+            width: 100%;
+            padding: 15px;
+            background-color: #6610F2;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s;
+        }
+
+        .next-button:hover {
+            background-color: #520DC2;
+        }
+
+        .language-indicator {
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            font-size: 14px;
+            color: #6C757D;
+
+        }
+
+        .card-back .language-indicator {
+            color: #6C757D;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="app-container">
+        <div class="header">
+            <div class="app-title">FLASHCard</div>
+            <div class="counter" id="counter">0/0</div>
+        </div>
+
+        <div class="card-container">
+            <div class="card" id="card">
+                <div class="card-face card-front">
+                    <span class="language-indicator">ENGLISH</span>
+                    <p class="phrase" id="english-phrase">
+                        Cargando...
+                    </p>
+                    <button class="flip-button" onclick="flipCard()">
+                        <i class="fas fa-exchange-alt"></i>
+                    </button>
+                </div>
+                <div class="card-face card-back">
+                    <span class="language-indicator">ESPAÑOL</span>
+                    <p class="phrase" id="spanish-phrase">
+                        Cargando...
+                    </p>
+                    <button class="flip-button" onclick="flipCard()">
+                        <i class="fas fa-exchange-alt"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="keywords-container">
+            <div class="keywords-title">PALABRAS CLAVE</div>
+            <div class="keywords-grid" id="keywords-grid">
+                <!-- Las palabras clave se insertarán aquí -->
+            </div>
+        </div>
+
+        <button class="next-button" onclick="nextCard()">
+            SIGUIENTE FRASE
+        </button>
+    </div>
+
+    <script>
+        // Variables de estado
+        let currentPhraseIndex = 0;
+        let practicedCount = 0;
+
+        // Arreglo de frases
+        const phrases = [
+            {
+                english: "I need to <span class='unknown-word'>book</span> a <span class='unknown-word'>flight</span> to New York next week.",
+                spanish: "Necesito <span class='unknown-word'>reservar</span> un <span class='unknown-word'>vuelo</span> a Nueva York la próxima semana.",
+                keywords: ["book", "flight", "reservar", "vuelo"]
+            },
+            {
+                english: "Could you <span class='unknown-word'>recommend</span> a good restaurant <span class='unknown-word'>nearby</span>?",
+                spanish: "¿Podrías <span class='unknown-word'>recomendar</span> un buen restaurante <span class='unknown-word'>cerca</span>?",
+                keywords: ["recommend", "nearby", "recomendar", "cerca"]
+            },
+            {
+                english: "What time does the <span class='unknown-word'>museum</span> <span class='unknown-word'>close</span> on Sundays?",
+                spanish: "¿A qué hora <span class='unknown-word'>cierra</span> el <span class='unknown-word'>museo</span> los domingos?",
+                keywords: ["museum", "close", "museo", "cierra"]
+            }
+        ];
+
+        // Inicializar la aplicación
+        function initApp() {
+            // Comenzar con un índice aleatorio
+            currentPhraseIndex = Math.floor(Math.random() * phrases.length);
+            practicedCount = 0;
+
+            // Actualizar la interfaz
+            updateCard();
+            updateCounter();
+        }
+
+        // Actualizar la tarjeta con la frase actual
+        function updateCard() {
+            const phrase = phrases[currentPhraseIndex];
+            document.getElementById('english-phrase').innerHTML = phrase.english;
+            document.getElementById('spanish-phrase').innerHTML = phrase.spanish;
+
+            // Actualizar palabras clave
+            const keywordsGrid = document.getElementById('keywords-grid');
+            keywordsGrid.innerHTML = '';
+
+            phrase.keywords.forEach(keyword => {
+                const keywordElement = document.createElement('div');
+                keywordElement.className = 'keyword';
+                keywordElement.textContent = keyword;
+                keywordsGrid.appendChild(keywordElement);
+            });
+        }
+
+        // Actualizar el contador
+        function updateCounter() {
+            document.getElementById('counter').textContent =
+                `${practicedCount}/${phrases.length}`;
+        }
+
+        // Voltear la tarjeta
+        function flipCard() {
+            const card = document.getElementById('card');
+            card.classList.toggle('flipped');
+        }
+
+        // Avanzar a la siguiente tarjeta
+        function nextCard() {
+            // Voltear la tarjeta a la posición frontal si está girada
+            const card = document.getElementById('card');
+            if (card.classList.contains('flipped')) {
+                card.classList.remove('flipped');
+            }
+
+            // Avanzar al siguiente índice (aleatorio para variedad)
+            currentPhraseIndex = Math.floor(Math.random() * phrases.length);
+            practicedCount++;
+
+            // Actualizar la interfaz
+            updateCard();
+            updateCounter();
+        }
+
+        // Iniciar la aplicación cuando se carga la página
+        window.onload = initApp;
+    </script>
+</body>
+
+</html>
