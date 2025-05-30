@@ -25,7 +25,7 @@
 
         .app-container {
             width: 100%;
-            max-width: 400px;
+            
         }
 
         .header {
@@ -230,22 +230,157 @@
 
         // Arreglo de frases
         const phrases = [
-            {
-                english: "I need to <span class='unknown-word'>book</span> a <span class='unknown-word'>flight</span> to New York next week.",
-                spanish: "Necesito <span class='unknown-word'>reservar</span> un <span class='unknown-word'>vuelo</span> a Nueva York la próxima semana.",
-                keywords: ["book", "flight", "reservar", "vuelo"]
-            },
-            {
-                english: "Could you <span class='unknown-word'>recommend</span> a good restaurant <span class='unknown-word'>nearby</span>?",
-                spanish: "¿Podrías <span class='unknown-word'>recomendar</span> un buen restaurante <span class='unknown-word'>cerca</span>?",
-                keywords: ["recommend", "nearby", "recomendar", "cerca"]
-            },
-            {
-                english: "What time does the <span class='unknown-word'>museum</span> <span class='unknown-word'>close</span> on Sundays?",
-                spanish: "¿A qué hora <span class='unknown-word'>cierra</span> el <span class='unknown-word'>museo</span> los domingos?",
-                keywords: ["museum", "close", "museo", "cierra"]
-            }
-        ];
+    {
+        "english": "Everyone in the crowd was really excited.",
+        "spanish": "Todos en la multitud estaban muy emocionados.",
+        "keywords": ["crowd", "excited", "multitud", "emocionados"]
+    },
+    {
+        "english": "People applauded as I stepped across the finish line.",
+        "spanish": "La gente aplaudió cuando crucé la línea de meta.",
+        "keywords": ["applauded", "finish line", "aplaudió", "línea de meta"]
+    },
+    {
+        "english": "My wonderful dog, Quinn, was right next to me.",
+        "spanish": "Mi maravilloso perro, Quinn, estaba justo a mi lado.",
+        "keywords": ["wonderful", "dog", "maravilloso", "perro"]
+    },
+    {
+        "english": "The people who organized the race took a picture of us at that moment.",
+        "spanish": "Las personas que organizaron la carrera nos tomaron una foto en ese momento.",
+        "keywords": ["organized", "race", "organizaron", "carrera"]
+    },
+    {
+        "english": "In the picture, Quinn and I both look extremely happy.",
+        "spanish": "En la foto, Quinn y yo lucimos extremadamente felices.",
+        "keywords": ["picture", "happy", "foto", "felices"]
+    },
+    {
+        "english": "It really was a great day.",
+        "spanish": "Realmente fue un gran día.",
+        "keywords": ["great", "day", "gran", "día"]
+    },
+    {
+        "english": "We were the first blind person and guide dog to finish the Boston 5K.",
+        "spanish": "Fuimos la primera persona ciega y perro guía en terminar los 5K de Boston.",
+        "keywords": ["blind", "guide dog", "ciega", "perro guía"]
+    },
+    {
+        "english": "No one did it before us.",
+        "spanish": "Nadie lo había hecho antes que nosotros.",
+        "keywords": ["before", "antes", "nadie"]
+    },
+    {
+        "english": "My dog loved running more than anything, so I loved it too.",
+        "spanish": "A mi perro le encantaba correr más que nada, así que a mí también.",
+        "keywords": ["dog", "running", "perro", "correr"]
+    },
+    {
+        "english": "Quinn even inspired me to run one of the biggest races of all: the Boston Marathon.",
+        "spanish": "Quinn incluso me inspiró a correr una de las carreras más grandes de todas: el Maratón de Boston.",
+        "keywords": ["inspired", "races", "inspiró", "carreras"]
+    },
+    {
+        "english": "I was feeling very sick, so I went to the emergency room.",
+        "spanish": "Me sentía muy enfermo, así que fui a la sala de emergencias.",
+        "keywords": ["sick", "emergency room", "enfermo", "sala de emergencias"]
+    },
+    {
+        "english": "After several different tests, the doctor gave me the results.",
+        "spanish": "Después de varias pruebas diferentes, el médico me dio los resultados.",
+        "keywords": ["tests", "doctor", "pruebas", "médico"]
+    },
+    {
+        "english": "I'll never forget the look on his face.",
+        "spanish": "Nunca olvidaré la expresión en su rostro.",
+        "keywords": ["forget", "face", "olvidaré", "rostro"]
+    },
+    {
+        "english": "He took off his glasses and just said, 'Randy...' I knew it was going to be bad news.",
+        "spanish": "Se quitó los lentes y solo dijo: 'Randy...' Supe que serían malas noticias.",
+        "keywords": ["glasses", "bad news", "lentes", "malas noticias"]
+    },
+    {
+        "english": "He told me that I had a rare neurological disease and I was going to be blind.",
+        "spanish": "Me dijo que tenía una enfermedad neurológica rara y que me quedaría ciego.",
+        "keywords": ["neurological", "disease", "neurológica", "enfermedad"]
+    },
+    {
+        "english": "I was already losing my vision, and I was only 22.",
+        "spanish": "Ya estaba perdiendo la visión, y solo tenía 22 años.",
+        "keywords": ["losing", "vision", "perdiendo", "visión"]
+    },
+    {
+        "english": "I was in shock.",
+        "spanish": "Estaba en shock.",
+        "keywords": ["shock"]
+    },
+    {
+        "english": "I was so young, and my future seemed so dark.",
+        "spanish": "Era tan joven, y mi futuro parecía tan oscuro.",
+        "keywords": ["young", "future", "joven", "futuro"]
+    },
+    {
+        "english": "Walking was also becoming difficult.",
+        "spanish": "Caminar también se estaba volviendo difícil.",
+        "keywords": ["walking", "difficult", "caminar", "difícil"]
+    },
+    {
+        "english": "For a while, I even had to use a wheelchair.",
+        "spanish": "Por un tiempo, incluso tuve que usar una silla de ruedas.",
+        "keywords": ["while", "wheelchair", "tiempo", "silla de ruedas"]
+    },
+    {
+        "english": "I couldn't walk, and that was really hard for me.",
+        "spanish": "No podía caminar, y eso fue muy difícil para mí.",
+        "keywords": ["walk", "hard", "caminar", "difícil"]
+    },
+    {
+        "english": "I thought a guide dog could help me walk and become independent again.",
+        "spanish": "Pensé que un perro guía podría ayudarme a caminar y ser independiente nuevamente.",
+        "keywords": ["guide dog", "independent", "perro guía", "independiente"]
+    },
+    {
+        "english": "So, I contacted a local organization that offered guide dogs for blind people.",
+        "spanish": "Así que contacté a una organización local que ofrecía perros guía para personas ciegas.",
+        "keywords": ["contacted", "organization", "contacté", "organización"]
+    },
+    {
+        "english": "And then I went to New York to get my dog. That's when I first met Quinn.",
+        "spanish": "Y luego fui a Nueva York a buscar a mi perro. Fue entonces cuando conocí a Quinn por primera vez.",
+        "keywords": ["New York", "met", "Nueva York", "conocí"]
+    },
+    {
+        "english": "At first, he didn't notice me at all! He was too interested in his toys.",
+        "spanish": "¡Al principio no me notó en absoluto! Estaba demasiado interesado en sus juguetes.",
+        "keywords": ["notice", "toys", "notó", "juguetes"]
+    },
+    {
+        "english": "Then I knew how to connect with Quinn: by playing!",
+        "spanish": "Entonces supe cómo conectar con Quinn: ¡jugando!",
+        "keywords": ["connect", "playing", "conectar", "jugando"]
+    },
+    {
+        "english": "Quinn and I always played after we went on a walk.",
+        "spanish": "Quinn y yo siempre jugábamos después de dar un paseo.",
+        "keywords": ["played", "walk", "jugábamos", "paseo"]
+    },
+    {
+        "english": "One day, he got a little too excited.",
+        "spanish": "Un día, se emocionó un poco demasiado.",
+        "keywords": ["day", "excited", "día", "emocionó"]
+    },
+    {
+        "english": "He couldn't wait to play, so we started walking really fast.",
+        "spanish": "No podía esperar para jugar, así que empezamos a caminar muy rápido.",
+        "keywords": ["wait", "play", "esperar", "jugar"]
+    },
+    {
+        "english": "Soon, we started running.",
+        "spanish": "Pronto, empezamos a correr.",
+        "keywords": ["soon", "running", "pronto", "correr"]
+    }
+]
 
         // Inicializar la aplicación
         function initApp() {
