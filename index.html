@@ -230,401 +230,403 @@
 
         // Arreglo de frases
         const phrases = [
+    [
     {
-        "english": "Everyone in the crowd was really excited.",
-        "spanish": "Todos en la multitud estaban muy emocionados.",
+        "english": "Everyone in the <span class='unknown-word'>crowd</span> was really <span class='unknown-word'>excited</span>.",
+        "spanish": "Todos en la <span class='unknown-word'>multitud</span> estaban muy <span class='unknown-word'>emocionados</span>.",
         "keywords": ["crowd", "excited", "multitud", "emocionados"]
     },
     {
-        "english": "People applauded as I stepped across the finish line.",
-        "spanish": "La gente aplaudió cuando crucé la línea de meta.",
+        "english": "People <span class='unknown-word'>applauded</span> as I stepped across the <span class='unknown-word'>finish line</span>.",
+        "spanish": "La gente <span class='unknown-word'>aplaudió</span> cuando crucé la <span class='unknown-word'>línea de meta</span>.",
         "keywords": ["applauded", "finish line", "aplaudió", "línea de meta"]
     },
     {
-        "english": "My wonderful dog, Quinn, was right next to me.",
-        "spanish": "Mi maravilloso perro, Quinn, estaba justo a mi lado.",
+        "english": "My <span class='unknown-word'>wonderful</span> <span class='unknown-word'>dog</span>, Quinn, was right next to me.",
+        "spanish": "Mi <span class='unknown-word'>maravilloso</span> <span class='unknown-word'>perro</span>, Quinn, estaba justo a mi lado.",
         "keywords": ["wonderful", "dog", "maravilloso", "perro"]
     },
     {
-        "english": "The people who organized the race took a picture of us at that moment.",
-        "spanish": "Las personas que organizaron la carrera nos tomaron una foto en ese momento.",
+        "english": "The people who <span class='unknown-word'>organized</span> the <span class='unknown-word'>race</span> took a picture of us at that moment.",
+        "spanish": "Las personas que <span class='unknown-word'>organizaron</span> la <span class='unknown-word'>carrera</span> nos tomaron una foto en ese momento.",
         "keywords": ["organized", "race", "organizaron", "carrera"]
     },
     {
-        "english": "In the picture, Quinn and I both look extremely happy.",
-        "spanish": "En la foto, Quinn y yo lucimos extremadamente felices.",
+        "english": "In the <span class='unknown-word'>picture</span>, Quinn and I both look extremely <span class='unknown-word'>happy</span>.",
+        "spanish": "En la <span class='unknown-word'>foto</span>, Quinn y yo lucimos extremadamente <span class='unknown-word'>felices</span>.",
         "keywords": ["picture", "happy", "foto", "felices"]
     },
     {
-        "english": "It really was a great day.",
-        "spanish": "Realmente fue un gran día.",
+        "english": "It really was a <span class='unknown-word'>great</span> <span class='unknown-word'>day</span>.",
+        "spanish": "Realmente fue un <span class='unknown-word'>gran</span> <span class='unknown-word'>día</span>.",
         "keywords": ["great", "day", "gran", "día"]
     },
     {
-        "english": "We were the first blind person and guide dog to finish the Boston 5K.",
-        "spanish": "Fuimos la primera persona ciega y perro guía en terminar los 5K de Boston.",
+        "english": "We were the first <span class='unknown-word'>blind</span> person and <span class='unknown-word'>guide dog</span> to finish the Boston 5K.",
+        "spanish": "Fuimos la primera persona <span class='unknown-word'>ciega</span> y <span class='unknown-word'>perro guía</span> en terminar los 5K de Boston.",
         "keywords": ["blind", "guide dog", "ciega", "perro guía"]
     },
     {
-        "english": "No one did it before us.",
-        "spanish": "Nadie lo había hecho antes que nosotros.",
+        "english": "No one did it <span class='unknown-word'>before</span> us.",
+        "spanish": "Nadie lo había hecho <span class='unknown-word'>antes</span> que nosotros.",
         "keywords": ["before", "antes", "nadie"]
     },
     {
-        "english": "My dog loved running more than anything, so I loved it too.",
-        "spanish": "A mi perro le encantaba correr más que nada, así que a mí también.",
+        "english": "My <span class='unknown-word'>dog</span> loved <span class='unknown-word'>running</span> more than anything, so I loved it too.",
+        "spanish": "A mi <span class='unknown-word'>perro</span> le encantaba <span class='unknown-word'>correr</span> más que nada, así que a mí también.",
         "keywords": ["dog", "running", "perro", "correr"]
     },
     {
-        "english": "Quinn even inspired me to run one of the biggest races of all: the Boston Marathon.",
-        "spanish": "Quinn incluso me inspiró a correr una de las carreras más grandes de todas: el Maratón de Boston.",
+        "english": "Quinn even <span class='unknown-word'>inspired</span> me to run one of the biggest <span class='unknown-word'>races</span> of all: the Boston Marathon.",
+        "spanish": "Quinn incluso me <span class='unknown-word'>inspiró</span> a correr una de las <span class='unknown-word'>carreras</span> más grandes de todas: el Maratón de Boston.",
         "keywords": ["inspired", "races", "inspiró", "carreras"]
     },
     {
-        "english": "I was feeling very sick, so I went to the emergency room.",
-        "spanish": "Me sentía muy enfermo, así que fui a la sala de emergencias.",
+        "english": "I was feeling very <span class='unknown-word'>sick</span>, so I went to the <span class='unknown-word'>emergency room</span>.",
+        "spanish": "Me sentía muy <span class='unknown-word'>enfermo</span>, así que fui a la <span class='unknown-word'>sala de emergencias</span>.",
         "keywords": ["sick", "emergency room", "enfermo", "sala de emergencias"]
     },
     {
-        "english": "After several different tests, the doctor gave me the results.",
-        "spanish": "Después de varias pruebas diferentes, el médico me dio los resultados.",
+        "english": "After several different <span class='unknown-word'>tests</span>, the <span class='unknown-word'>doctor</span> gave me the results.",
+        "spanish": "Después de varias <span class='unknown-word'>pruebas</span> diferentes, el <span class='unknown-word'>médico</span> me dio los resultados.",
         "keywords": ["tests", "doctor", "pruebas", "médico"]
     },
     {
-        "english": "I'll never forget the look on his face.",
-        "spanish": "Nunca olvidaré la expresión en su rostro.",
+        "english": "I'll never <span class='unknown-word'>forget</span> the look on his <span class='unknown-word'>face</span>.",
+        "spanish": "Nunca <span class='unknown-word'>olvidaré</span> la expresión en su <span class='unknown-word'>rostro</span>.",
         "keywords": ["forget", "face", "olvidaré", "rostro"]
     },
     {
-        "english": "He took off his glasses and just said, 'Randy...' I knew it was going to be bad news.",
-        "spanish": "Se quitó los lentes y solo dijo: 'Randy...' Supe que serían malas noticias.",
+        "english": "He took off his <span class='unknown-word'>glasses</span> and just said, 'Randy...' I knew it was going to be <span class='unknown-word'>bad news</span>.",
+        "spanish": "Se quitó los <span class='unknown-word'>lentes</span> y solo dijo: 'Randy...' Supe que serían <span class='unknown-word'>malas noticias</span>.",
         "keywords": ["glasses", "bad news", "lentes", "malas noticias"]
     },
     {
-        "english": "He told me that I had a rare neurological disease and I was going to be blind.",
-        "spanish": "Me dijo que tenía una enfermedad neurológica rara y que me quedaría ciego.",
+        "english": "He told me that I had a rare <span class='unknown-word'>neurological</span> <span class='unknown-word'>disease</span> and I was going to be blind.",
+        "spanish": "Me dijo que tenía una enfermedad <span class='unknown-word'>neurológica</span> rara y que me quedaría ciego.",
         "keywords": ["neurological", "disease", "neurológica", "enfermedad"]
     },
     {
-        "english": "I was already losing my vision, and I was only 22.",
-        "spanish": "Ya estaba perdiendo la visión, y solo tenía 22 años.",
+        "english": "I was already <span class='unknown-word'>losing</span> my <span class='unknown-word'>vision</span>, and I was only 22.",
+        "spanish": "Ya estaba <span class='unknown-word'>perdiendo</span> la <span class='unknown-word'>visión</span>, y solo tenía 22 años.",
         "keywords": ["losing", "vision", "perdiendo", "visión"]
     },
     {
-        "english": "I was in shock.",
-        "spanish": "Estaba en shock.",
+        "english": "I was in <span class='unknown-word'>shock</span>.",
+        "spanish": "Estaba en <span class='unknown-word'>shock</span>.",
         "keywords": ["shock"]
     },
     {
-        "english": "I was so young, and my future seemed so dark.",
-        "spanish": "Era tan joven, y mi futuro parecía tan oscuro.",
+        "english": "I was so <span class='unknown-word'>young</span>, and my <span class='unknown-word'>future</span> seemed so dark.",
+        "spanish": "Era tan <span class='unknown-word'>joven</span>, y mi <span class='unknown-word'>futuro</span> parecía tan oscuro.",
         "keywords": ["young", "future", "joven", "futuro"]
     },
     {
-        "english": "Walking was also becoming difficult.",
-        "spanish": "Caminar también se estaba volviendo difícil.",
+        "english": "<span class='unknown-word'>Walking</span> was also becoming <span class='unknown-word'>difficult</span>.",
+        "spanish": "<span class='unknown-word'>Caminar</span> también se estaba volviendo <span class='unknown-word'>difícil</span>.",
         "keywords": ["walking", "difficult", "caminar", "difícil"]
     },
     {
-        "english": "For a while, I even had to use a wheelchair.",
-        "spanish": "Por un tiempo, incluso tuve que usar una silla de ruedas.",
+        "english": "For a <span class='unknown-word'>while</span>, I even had to use a <span class='unknown-word'>wheelchair</span>.",
+        "spanish": "Por un <span class='unknown-word'>tiempo</span>, incluso tuve que usar una <span class='unknown-word'>silla de ruedas</span>.",
         "keywords": ["while", "wheelchair", "tiempo", "silla de ruedas"]
     },
     {
-        "english": "I couldn't walk, and that was really hard for me.",
-        "spanish": "No podía caminar, y eso fue muy difícil para mí.",
+        "english": "I couldn't <span class='unknown-word'>walk</span>, and that was really <span class='unknown-word'>hard</span> for me.",
+        "spanish": "No podía <span class='unknown-word'>caminar</span>, y eso fue muy <span class='unknown-word'>difícil</span> para mí.",
         "keywords": ["walk", "hard", "caminar", "difícil"]
     },
     {
-        "english": "I thought a guide dog could help me walk and become independent again.",
-        "spanish": "Pensé que un perro guía podría ayudarme a caminar y ser independiente nuevamente.",
+        "english": "I thought a <span class='unknown-word'>guide dog</span> could help me walk and become <span class='unknown-word'>independent</span> again.",
+        "spanish": "Pensé que un <span class='unknown-word'>perro guía</span> podría ayudarme a caminar y ser <span class='unknown-word'>independiente</span> nuevamente.",
         "keywords": ["guide dog", "independent", "perro guía", "independiente"]
     },
     {
-        "english": "So, I contacted a local organization that offered guide dogs for blind people.",
-        "spanish": "Así que contacté a una organización local que ofrecía perros guía para personas ciegas.",
+        "english": "So, I <span class='unknown-word'>contacted</span> a local <span class='unknown-word'>organization</span> that offered guide dogs for blind people.",
+        "spanish": "Así que <span class='unknown-word'>contacté</span> a una <span class='unknown-word'>organización</span> local que ofrecía perros guía para personas ciegas.",
         "keywords": ["contacted", "organization", "contacté", "organización"]
     },
     {
-        "english": "And then I went to New York to get my dog. That's when I first met Quinn.",
-        "spanish": "Y luego fui a Nueva York a buscar a mi perro. Fue entonces cuando conocí a Quinn por primera vez.",
+        "english": "And then I went to <span class='unknown-word'>New York</span> to get my dog. That's when I first <span class='unknown-word'>met</span> Quinn.",
+        "spanish": "Y luego fui a <span class='unknown-word'>Nueva York</span> a buscar a mi perro. Fue entonces cuando <span class='unknown-word'>conocí</span> a Quinn por primera vez.",
         "keywords": ["New York", "met", "Nueva York", "conocí"]
     },
     {
-        "english": "At first, he didn't notice me at all! He was too interested in his toys.",
-        "spanish": "¡Al principio no me notó en absoluto! Estaba demasiado interesado en sus juguetes.",
+        "english": "At first, he didn't <span class='unknown-word'>notice</span> me at all! He was too interested in his <span class='unknown-word'>toys</span>.",
+        "spanish": "¡Al principio no me <span class='unknown-word'>notó</span> en absoluto! Estaba demasiado interesado en sus <span class='unknown-word'>juguetes</span>.",
         "keywords": ["notice", "toys", "notó", "juguetes"]
     },
     {
-        "english": "Then I knew how to connect with Quinn: by playing!",
-        "spanish": "Entonces supe cómo conectar con Quinn: ¡jugando!",
+        "english": "Then I knew how to <span class='unknown-word'>connect</span> with Quinn: by <span class='unknown-word'>playing</span>!",
+        "spanish": "Entonces supe cómo <span class='unknown-word'>conectar</span> con Quinn: ¡<span class='unknown-word'>jugando</span>!",
         "keywords": ["connect", "playing", "conectar", "jugando"]
     },
     {
-        "english": "Quinn and I always played after we went on a walk.",
-        "spanish": "Quinn y yo siempre jugábamos después de dar un paseo.",
+        "english": "Quinn and I always <span class='unknown-word'>played</span> after we went on a <span class='unknown-word'>walk</span>.",
+        "spanish": "Quinn y yo siempre <span class='unknown-word'>jugábamos</span> después de dar un <span class='unknown-word'>paseo</span>.",
         "keywords": ["played", "walk", "jugábamos", "paseo"]
     },
     {
-        "english": "One day, he got a little too excited.",
-        "spanish": "Un día, se emocionó un poco demasiado.",
+        "english": "One <span class='unknown-word'>day</span>, he got a little too <span class='unknown-word'>excited</span>.",
+        "spanish": "Un <span class='unknown-word'>día</span>, se <span class='unknown-word'>emocionó</span> un poco demasiado.",
         "keywords": ["day", "excited", "día", "emocionó"]
     },
     {
-        "english": "He couldn't wait to play, so we started walking really fast.",
-        "spanish": "No podía esperar para jugar, así que empezamos a caminar muy rápido.",
+        "english": "He couldn't <span class='unknown-word'>wait</span> to <span class='unknown-word'>play</span>, so we started walking really fast.",
+        "spanish": "No podía <span class='unknown-word'>esperar</span> para <span class='unknown-word'>jugar</span>, así que empezamos a caminar muy rápido.",
         "keywords": ["wait", "play", "esperar", "jugar"]
     },
     {
-        "english": "Soon, we started running.",
-        "spanish": "Pronto, empezamos a correr.",
+        "english": "<span class='unknown-word'>Soon</span>, we started <span class='unknown-word'>running</span>.",
+        "spanish": "<span class='unknown-word'>Pronto</span>, empezamos a <span class='unknown-word'>correr</span>.",
         "keywords": ["soon", "running", "pronto", "correr"]
     },
     {
-        "english": "After that, we ran together all the time, and that changed my life.",
-        "spanish": "Después de eso, corrimos juntos todo el tiempo, y eso cambió mi vida.",
+        "english": "After that, we <span class='unknown-word'>ran</span> <span class='unknown-word'>together</span> all the time, and that <span class='unknown-word'>changed</span> my life.",
+        "spanish": "Después de eso, <span class='unknown-word'>corrimos</span> <span class='unknown-word'>juntos</span> todo el tiempo, y eso <span class='unknown-word'>cambió</span> mi vida.",
         "keywords": ["ran", "together", "changed", "corrimos", "cambió"]
     },
     {
-        "english": "After we did really well during that 5K, I celebrated with some of my running friends.",
-        "spanish": "Después de que nos fue muy bien en esos 5K, celebré con algunos de mis amigos corredores.",
+        "english": "After we did really well during that 5K, I <span class='unknown-word'>celebrated</span> with some of my <span class='unknown-word'>running friends</span>.",
+        "spanish": "Después de que nos fue muy bien en esos 5K, <span class='unknown-word'>celebré</span> con algunos de mis amigos <span class='unknown-word'>corredores</span>.",
         "keywords": ["celebrated", "running friends", "celebré", "corredores"]
     },
     {
-        "english": "Then I went back to the state of New Hampshire.",
-        "spanish": "Luego volví al estado de New Hampshire.",
+        "english": "Then I <span class='unknown-word'>went back</span> to the state of <span class='unknown-word'>New Hampshire</span>.",
+        "spanish": "Luego <span class='unknown-word'>volví</span> al estado de <span class='unknown-word'>New Hampshire</span>.",
         "keywords": ["went back", "New Hampshire", "volví"]
     },
     {
-        "english": "But my friends stayed in the city to watch the Boston Marathon, which was going to happen the next day.",
-        "spanish": "Pero mis amigos se quedaron en la ciudad para ver el Maratón de Boston, que tendría lugar al día siguiente.",
+        "english": "But my friends <span class='unknown-word'>stayed</span> in the city to watch the <span class='unknown-word'>Boston Marathon</span>, which was going to happen the next day.",
+        "spanish": "Pero mis amigos <span class='unknown-word'>se quedaron</span> en la ciudad para ver el <span class='unknown-word'>Maratón de Boston</span>, que tendría lugar al día siguiente.",
         "keywords": ["stayed", "Boston Marathon", "quedaron", "Maratón de Boston"]
     },
     {
-        "english": "On the day of the marathon, I watched the news and heard about an explosion at the finish line.",
-        "spanish": "El día del maratón, vi las noticias y escuché sobre una explosión en la línea de meta.",
+        "english": "On the day of the <span class='unknown-word'>marathon</span>, I watched the news and heard about an <span class='unknown-word'>explosion</span> at the finish line.",
+        "spanish": "El día del <span class='unknown-word'>maratón</span>, vi las noticias y escuché sobre una <span class='unknown-word'>explosión</span> en la línea de meta.",
         "keywords": ["marathon", "explosion", "maratón", "explosión"]
     },
     {
-        "english": "At first, I was in shock.",
-        "spanish": "Al principio, estaba en shock.",
+        "english": "At first, I was in <span class='unknown-word'>shock</span>.",
+        "spanish": "Al principio, estaba en <span class='unknown-word'>shock</span>.",
         "keywords": ["shock"]
     },
     {
-        "english": "But then, after that tragic bombing, I knew that I had to run in the Boston Marathon the next year.",
-        "spanish": "Pero luego, después de ese trágico atentado, supe que tenía que correr el Maratón de Boston al año siguiente.",
+        "english": "But then, after that <span class='unknown-word'>tragic</span> <span class='unknown-word'>bombing</span>, I knew that I had to run in the Boston Marathon the next year.",
+        "spanish": "Pero luego, después de ese <span class='unknown-word'>trágico</span> <span class='unknown-word'>atentado</span>, supe que tenía que correr el Maratón de Boston al año siguiente.",
         "keywords": ["tragic", "bombing", "trágico", "atentado"]
     },
     {
-        "english": "I wanted to show that horrible violence couldn’t stop people from enjoying that amazing event.",
-        "spanish": "Quería demostrar que la violencia horrible no podía impedir que la gente disfrutara de ese evento increíble.",
+        "english": "I wanted to show that horrible <span class='unknown-word'>violence</span> couldn’t stop people from enjoying that <span class='unknown-word'>amazing event</span>.",
+        "spanish": "Quería demostrar que la <span class='unknown-word'>violencia</span> horrible no podía impedir que la gente disfrutara de ese <span class='unknown-word'>evento increíble</span>.",
         "keywords": ["violence", "amazing event", "violencia", "evento increíble"]
     },
     {
-        "english": "Quinn and I started running a lot.",
-        "spanish": "Quinn y yo empezamos a correr mucho.",
+        "english": "Quinn and I <span class='unknown-word'>started</span> <span class='unknown-word'>running</span> a lot.",
+        "spanish": "Quinn y yo <span class='unknown-word'>empezamos</span> a <span class='unknown-word'>correr</span> mucho.",
         "keywords": ["started", "running", "empezamos", "correr"]
     },
     {
-        "english": "But during some of our runs in the fall, I noticed that Quinn seemed tired.",
-        "spanish": "Pero durante algunas de nuestras carreras en otoño, noté que Quinn parecía cansado.",
+        "english": "But during some of our runs in the <span class='unknown-word'>fall</span>, I noticed that Quinn seemed <span class='unknown-word'>tired</span>.",
+        "spanish": "Pero durante algunas de nuestras carreras en <span class='unknown-word'>otoño</span>, noté que Quinn parecía <span class='unknown-word'>cansado</span>.",
         "keywords": ["fall", "tired", "otoño", "cansado"]
     },
     {
-        "english": "So I took him to the veterinarian, and I got very bad news.",
-        "spanish": "Así que lo llevé al veterinario y recibí muy malas noticias.",
+        "english": "So I took him to the <span class='unknown-word'>veterinarian</span>, and I got very <span class='unknown-word'>bad news</span>.",
+        "spanish": "Así que lo llevé al <span class='unknown-word'>veterinario</span> y recibí muy <span class='unknown-word'>malas noticias</span>.",
         "keywords": ["veterinarian", "bad news", "veterinario", "malas noticias"]
     },
     {
-        "english": "The vet said that Quinn had cancer and he was going to die in a few months.",
-        "spanish": "El veterinario dijo que Quinn tenía cáncer y que moriría en unos meses.",
+        "english": "The <span class='unknown-word'>vet</span> said that Quinn had <span class='unknown-word'>cancer</span> and he was going to <span class='unknown-word'>die</span> in a few months.",
+        "spanish": "El <span class='unknown-word'>veterinario</span> dijo que Quinn tenía <span class='unknown-word'>cáncer</span> y que <span class='unknown-word'>moriría</span> en unos meses.",
         "keywords": ["vet", "cancer", "die", "veterinario", "cáncer", "moriría"]
     },
     {
-        "english": "At that moment, I realized that I wouldn’t just lose my guide dog but also my best friend.",
-        "spanish": "En ese momento, me di cuenta de que no solo perdería a mi perro guía, sino también a mi mejor amigo.",
+        "english": "At that moment, I <span class='unknown-word'>realized</span> that I wouldn’t just lose my <span class='unknown-word'>guide dog</span> but also my <span class='unknown-word'>best friend</span>.",
+        "spanish": "En ese momento, me <span class='unknown-word'>di cuenta</span> de que no solo perdería a mi <span class='unknown-word'>perro guía</span>, sino también a mi <span class='unknown-word'>mejor amigo</span>.",
         "keywords": ["realized", "guide dog", "best friend", "di cuenta", "perro guía", "mejor amigo"]
     },
     {
-        "english": "The day we put Quinn to sleep, I held him in my arms, and I told him how much I loved him.",
-        "spanish": "El día que dormimos a Quinn, lo sostuve en mis brazos y le dije cuánto lo amaba.",
+        "english": "The day we <span class='unknown-word'>put</span> Quinn <span class='unknown-word'>to sleep</span>, I <span class='unknown-word'>held</span> him in my arms, and I told him how much I <span class='unknown-word'>loved</span> him.",
+        "spanish": "El día que <span class='unknown-word'>dormimos</span> a Quinn, lo <span class='unknown-word'>sostuve</span> en mis brazos y le dije cuánto lo <span class='unknown-word'>amaba</span>.",
         "keywords": ["put to sleep", "held", "loved", "dormimos", "sostuve", "amaba"]
     },
     {
-        "english": "He died while I was hugging him.",
-        "spanish": "Murió mientras lo abrazaba.",
+        "english": "He <span class='unknown-word'>died</span> while I was <span class='unknown-word'>hugging</span> him.",
+        "spanish": "<span class='unknown-word'>Murió</span> mientras lo <span class='unknown-word'>abrazaba</span>.",
         "keywords": ["died", "hugging", "murió", "abrazaba"]
     },
     {
-        "english": "I immediately knew that the best way to honor my boy, Quinn, was to run in the Boston Marathon.",
-        "spanish": "Inmediatamente supe que la mejor manera de honrar a mi chico, Quinn, era correr el Maratón de Boston.",
+        "english": "I immediately knew that the best way to <span class='unknown-word'>honor</span> my boy, Quinn, was to run in the <span class='unknown-word'>Boston Marathon</span>.",
+        "spanish": "Inmediatamente supe que la mejor manera de <span class='unknown-word'>honrar</span> a mi chico, Quinn, era correr el <span class='unknown-word'>Maratón de Boston</span>.",
         "keywords": ["honor", "Boston Marathon", "honrar", "Maratón de Boston"]
     },
     {
-        "english": "It was hard to get out of bed and run in the extremely cold temperatures.",
-        "spanish": "Fue difícil salir de la cama y correr con temperaturas extremadamente frías.",
+        "english": "It was <span class='unknown-word'>hard</span> to get out of bed and run in the extremely <span class='unknown-word'>cold temperatures</span>.",
+        "spanish": "Fue <span class='unknown-word'>difícil</span> salir de la cama y correr con temperaturas extremadamente <span class='unknown-word'>frías</span>.",
         "keywords": ["hard", "cold temperatures", "difícil", "frías"]
     },
     {
-        "english": "But because I’m blind, I also had to convince my three guides to run in the cold!",
-        "spanish": "¡Pero como soy ciego, también tuve que convencer a mis tres guías para que corrieran en el frío!",
+        "english": "But because I’m <span class='unknown-word'>blind</span>, I also had to convince my three <span class='unknown-word'>guides</span> to run in the cold!",
+        "spanish": "¡Pero como soy <span class='unknown-word'>ciego</span>, también tuve que convencer a mis tres <span class='unknown-word'>guías</span> para que corrieran en el frío!",
         "keywords": ["blind", "guides", "ciego", "guías"]
     },
     {
-        "english": "It’s too difficult for a dog to run in a marathon.",
-        "spanish": "Es demasiado difícil para un perro correr un maratón.",
+        "english": "It’s too <span class='unknown-word'>difficult</span> for a <span class='unknown-word'>dog</span> to run in a <span class='unknown-word'>marathon</span>.",
+        "spanish": "Es demasiado <span class='unknown-word'>difícil</span> para un <span class='unknown-word'>perro</span> correr un <span class='unknown-word'>maratón</span>.",
         "keywords": ["difficult", "dog", "marathon", "difícil", "perro", "maratón"]
     },
     {
-        "english": "A dog will become very tired, so most people run with human guides.",
-        "spanish": "Un perro se cansará mucho, por lo que la mayoría de las personas corren con guías humanos.",
+        "english": "A dog will become very <span class='unknown-word'>tired</span>, so most people run with <span class='unknown-word'>human guides</span>.",
+        "spanish": "Un perro se <span class='unknown-word'>cansará</span> mucho, por lo que la mayoría de las personas corren con <span class='unknown-word'>guías humanos</span>.",
         "keywords": ["tired", "human guides", "cansará", "guías humanos"]
     },
     {
-        "english": "I had a group of three people running next to me, taking turns.",
-        "spanish": "Tenía un grupo de tres personas corriendo a mi lado, turnándose.",
+        "english": "I had a <span class='unknown-word'>group</span> of three people running next to me, <span class='unknown-word'>taking turns</span>.",
+        "spanish": "Tenía un <span class='unknown-word'>grupo</span> de tres personas corriendo a mi lado, <span class='unknown-word'>turnándose</span>.",
         "keywords": ["group", "taking turns", "grupo", "turnándose"]
     },
     {
-        "english": "My guides had to tell me where to turn and when to avoid holes in the road.",
-        "spanish": "Mis guías tenían que decirme dónde girar y cuándo evitar agujeros en el camino.",
+        "english": "My <span class='unknown-word'>guides</span> had to tell me where to turn and when to <span class='unknown-word'>avoid</span> <span class='unknown-word'>holes</span> in the road.",
+        "spanish": "Mis <span class='unknown-word'>guías</span> tenían que decirme dónde girar y cuándo <span class='unknown-word'>evitar</span> <span class='unknown-word'>agujeros</span> en el camino.",
         "keywords": ["guides", "avoid", "holes", "guías", "evitar", "agujeros"]
     },
     {
-        "english": "I also had a running stick, which my guides used to help me go in the right direction.",
-        "spanish": "También tenía un bastón para correr, que mis guías usaban para ayudarme a ir en la dirección correcta.",
+        "english": "I also had a <span class='unknown-word'>running stick</span>, which my guides used to help me go in the right <span class='unknown-word'>direction</span>.",
+        "spanish": "También tenía un <span class='unknown-word'>bastón</span> para correr, que mis guías usaban para ayudarme a ir en la <span class='unknown-word'>dirección</span> correcta.",
         "keywords": ["running stick", "direction", "bastón", "dirección"]
     },
     {
-        "english": "That was going to be very difficult.",
-        "spanish": "Eso iba a ser muy difícil.",
+        "english": "That was going to be very <span class='unknown-word'>difficult</span>.",
+        "spanish": "Eso iba a ser muy <span class='unknown-word'>difícil</span>.",
         "keywords": ["difficult", "difícil"]
     },
     {
-        "english": "I needed to run one mile in nine minutes for all 26.2 miles of the marathon — without being able to see! That’s 30 minutes faster than the average person who isn’t blind!",
-        "spanish": "Necesitaba correr una milla en nueve minutos durante todas las 26.2 millas del maratón, ¡sin poder ver! ¡Eso es 30 minutos más rápido que la persona promedio que no es ciega!",
+        "english": "I needed to <span class='unknown-word'>run</span> one mile in nine minutes for all 26.2 miles of the <span class='unknown-word'>marathon</span> — without being able to see! That’s 30 minutes faster than the average person who isn’t <span class='unknown-word'>blind</span>!",
+        "spanish": "Necesitaba <span class='unknown-word'>correr</span> una milla en nueve minutos durante todas las 26.2 millas del <span class='unknown-word'>maratón</span>, ¡sin poder ver! ¡Eso es 30 minutos más rápido que la persona promedio que no es <span class='unknown-word'>ciega</span>!",
         "keywords": ["run", "marathon", "blind", "correr", "maratón", "ciego"]
     },
     {
-        "english": "The weather was terrible.",
-        "spanish": "El clima era terrible.",
+        "english": "The <span class='unknown-word'>weather</span> was <span class='unknown-word'>terrible</span>.",
+        "spanish": "El <span class='unknown-word'>clima</span> era <span class='unknown-word'>terrible</span>.",
         "keywords": ["weather", "terrible", "clima"]
     },
     {
-        "english": "There were strong winds, and it was also raining! It’s really difficult for a blind person to run while it’s raining.",
-        "spanish": "¡Había vientos fuertes y también estaba lloviendo! Es muy difícil para una persona ciega correr mientras llueve.",
+        "english": "There were <span class='unknown-word'>strong winds</span>, and it was also <span class='unknown-word'>raining</span>! It’s really difficult for a <span class='unknown-word'>blind</span> person to run while it’s raining.",
+        "spanish": "¡Había <span class='unknown-word'>vientos fuertes</span> y también estaba <span class='unknown-word'>lloviendo</span>! Es muy difícil para una persona <span class='unknown-word'>ciega</span> correr mientras llueve.",
         "keywords": ["strong winds", "raining", "blind", "vientos fuertes", "lloviendo", "ciega"]
     },
     {
-        "english": "I knew it was going to be a hard day.",
-        "spanish": "Sabía que iba a ser un día duro.",
+        "english": "I knew it was going to be a <span class='unknown-word'>hard day</span>.",
+        "spanish": "Sabía que iba a ser un día <span class='unknown-word'>duro</span>.",
         "keywords": ["hard day", "duro"]
     },
     {
-        "english": "But I tied my shoes and put on a shirt that said 'Miles for Quinn.' And then I went to the start line.",
-        "spanish": "Pero me até los zapatos y me puse una camiseta que decía 'Millas por Quinn'. Y luego fui a la línea de salida.",
+        "english": "But I tied my <span class='unknown-word'>shoes</span> and put on a <span class='unknown-word'>shirt</span> that said 'Miles for Quinn.' And then I went to the <span class='unknown-word'>start line</span>.",
+        "spanish": "Pero me até los <span class='unknown-word'>zapatos</span> y me puse una <span class='unknown-word'>camiseta</span> que decía 'Millas por Quinn'. Y luego fui a la <span class='unknown-word'>línea de salida</span>.",
         "keywords": ["shoes", "shirt", "start line", "zapatos", "camiseta", "línea de salida"]
     },
     {
-        "english": "I got ready to start the race.",
-        "spanish": "Me preparé para comenzar la carrera.",
+        "english": "I got <span class='unknown-word'>ready</span> to <span class='unknown-word'>start</span> the <span class='unknown-word'>race</span>.",
+        "spanish": "Me <span class='unknown-word'>preparé</span> para <span class='unknown-word'>comenzar</span> la <span class='unknown-word'>carrera</span>.",
         "keywords": ["ready", "start", "race", "preparé", "comenzar", "carrera"]
     },
     {
-        "english": "I was next to 30,000 other runners.",
-        "spanish": "Estaba junto a otros 30,000 corredores.",
+        "english": "I was next to 30,000 other <span class='unknown-word'>runners</span>.",
+        "spanish": "Estaba junto a otros 30,000 <span class='unknown-word'>corredores</span>.",
         "keywords": ["runners", "corredores"]
     },
     {
-        "english": "I was nervous, and my heart was racing, but when I heard the gun…I just thought of Quinn.",
-        "spanish": "Estaba nervioso y mi corazón latía fuerte, pero cuando escuché el disparo… solo pensé en Quinn.",
+        "english": "I was <span class='unknown-word'>nervous</span>, and my <span class='unknown-word'>heart</span> was racing, but when I heard the <span class='unknown-word'>gun</span>…I just thought of Quinn.",
+        "spanish": "Estaba <span class='unknown-word'>nervioso</span> y mi <span class='unknown-word'>corazón</span> latía fuerte, pero cuando escuché el <span class='unknown-word'>disparo</span>… solo pensé en Quinn.",
         "keywords": ["nervous", "heart", "gun", "nervioso", "corazón", "disparo"]
     },
     {
-        "english": "And I ran and ran.",
-        "spanish": "Y corrí y corrí.",
+        "english": "And I <span class='unknown-word'>ran</span> and <span class='unknown-word'>ran</span>.",
+        "spanish": "Y <span class='unknown-word'>corrí</span> y <span class='unknown-word'>corrí</span>.",
         "keywords": ["ran", "corrí"]
     },
     {
-        "english": "Everything was going well, and I felt strong until we were almost at 'Heartbreak Hill.'",
-        "spanish": "Todo iba bien y me sentía fuerte hasta que estuvimos casi en 'Heartbreak Hill'.",
+        "english": "Everything was <span class='unknown-word'>going well</span>, and I felt <span class='unknown-word'>strong</span> until we were almost at '<span class='unknown-word'>Heartbreak Hill</span>'.",
+        "spanish": "Todo <span class='unknown-word'>iba bien</span> y me sentía <span class='unknown-word'>fuerte</span> hasta que estuvimos casi en '<span class='unknown-word'>Heartbreak Hill</span>'.",
         "keywords": ["going well", "strong", "Heartbreak Hill", "iba bien", "fuerte"]
     },
     {
-        "english": "Each step was painful.",
-        "spanish": "Cada paso era doloroso.",
+        "english": "Each <span class='unknown-word'>step</span> was <span class='unknown-word'>painful</span>.",
+        "spanish": "Cada <span class='unknown-word'>paso</span> era <span class='unknown-word'>doloroso</span>.",
         "keywords": ["step", "painful", "paso", "doloroso"]
     },
     {
-        "english": "But then I thought of my boy, Quinn.",
-        "spanish": "Pero entonces pensé en mi chico, Quinn.",
+        "english": "But then I <span class='unknown-word'>thought</span> of my boy, <span class='unknown-word'>Quinn</span>.",
+        "spanish": "Pero entonces <span class='unknown-word'>pensé</span> en mi chico, <span class='unknown-word'>Quinn</span>.",
         "keywords": ["thought", "Quinn", "pensé"]
     },
     {
-        "english": "I thought about him sitting in my lap.",
-        "spanish": "Pensé en él sentado en mi regazo.",
+        "english": "I thought about him sitting in my <span class='unknown-word'>lap</span>.",
+        "spanish": "Pensé en él sentado en mi <span class='unknown-word'>regazo</span>.",
         "keywords": ["lap", "regazo"]
     },
     {
-        "english": "I remembered hiking with him in New Hampshire and running on the roads by my house.",
-        "spanish": "Recordé caminar con él en New Hampshire y correr por los caminos cerca de mi casa.",
+        "english": "I <span class='unknown-word'>remembered</span> <span class='unknown-word'>hiking</span> with him in New Hampshire and <span class='unknown-word'>running</span> on the roads by my house.",
+        "spanish": "Recordé <span class='unknown-word'>caminar</span> con él en New Hampshire y <span class='unknown-word'>correr</span> por los caminos cerca de mi casa.",
         "keywords": ["remembered", "hiking", "running", "recordé", "caminar", "correr"]
     },
     {
-        "english": "My memories of Quinn helped me get up that hill.",
-        "spanish": "Mis recuerdos de Quinn me ayudaron a subir esa colina.",
+        "english": "My <span class='unknown-word'>memories</span> of Quinn <span class='unknown-word'>helped</span> me get up that <span class='unknown-word'>hill</span>.",
+        "spanish": "Mis <span class='unknown-word'>recuerdos</span> de Quinn me <span class='unknown-word'>ayudaron</span> a subir esa <span class='unknown-word'>colina</span>.",
         "keywords": ["memories", "helped", "hill", "recuerdos", "ayudaron", "colina"]
     },
     {
-        "english": "And when I got to the top, I shouted, 'I love you, Quinn boy!' Quinn made me feel strong.",
-        "spanish": "Y cuando llegué a la cima, grité: '¡Te amo, chico Quinn!' Quinn me hizo sentir fuerte.",
+        "english": "And when I got to the <span class='unknown-word'>top</span>, I <span class='unknown-word'>shouted</span>, 'I love you, Quinn boy!' Quinn made me feel <span class='unknown-word'>strong</span>.",
+        "spanish": "Y cuando llegué a la <span class='unknown-word'>cima</span>, <span class='unknown-word'>grité</span>: '¡Te amo, chico Quinn!' Quinn me hizo sentir <span class='unknown-word'>fuerte</span>.",
         "keywords": ["top", "shouted", "strong", "cima", "grité", "fuerte"]
     },
     {
-        "english": "I was able to cross the finish line…in three hours and 50 minutes!",
-        "spanish": "¡Pude cruzar la línea de meta… en tres horas y 50 minutos!",
+        "english": "I was able to <span class='unknown-word'>cross</span> the <span class='unknown-word'>finish line</span>…in three hours and 50 minutes!",
+        "spanish": "¡Pude <span class='unknown-word'>cruzar</span> la <span class='unknown-word'>línea de meta</span>… en tres horas y 50 minutos!",
         "keywords": ["cross", "finish line", "cruzar", "línea de meta"]
     },
     {
-        "english": "Autumn is my new dog.",
-        "spanish": "Autumn es mi perro nuevo.",
+        "english": "<span class='unknown-word'>Autumn</span> is my new <span class='unknown-word'>dog</span>.",
+        "spanish": "<span class='unknown-word'>Autumn</span> es mi <span class='unknown-word'>perro</span> nuevo.",
         "keywords": ["Autumn", "dog", "perro"]
     },
     {
-        "english": "She’s a Labrador like Quinn.",
-        "spanish": "Es una labradora como Quinn.",
+        "english": "She’s a <span class='unknown-word'>Labrador</span> like Quinn.",
+        "spanish": "Es una <span class='unknown-word'>labradora</span> como Quinn.",
         "keywords": ["Labrador", "como Quinn"]
     },
     {
-        "english": "We got her from the same organization that helps blind people.",
-        "spanish": "La obtuvimos de la misma organización que ayuda a personas ciegas.",
+        "english": "We got her from the same <span class='unknown-word'>organization</span> that helps <span class='unknown-word'>blind people</span>.",
+        "spanish": "La obtuvimos de la misma <span class='unknown-word'>organización</span> que ayuda a <span class='unknown-word'>personas ciegas</span>.",
         "keywords": ["organization", "blind people", "organización", "personas ciegas"]
     },
     {
-        "english": "But Autumn is not a runner like Quinn.",
-        "spanish": "Pero Autumn no es corredora como Quinn.",
+        "english": "But Autumn is not a <span class='unknown-word'>runner</span> like Quinn.",
+        "spanish": "Pero Autumn no es <span class='unknown-word'>corredora</span> como Quinn.",
         "keywords": ["runner", "corredora"]
     },
     {
-        "english": "If she sees a squirrel or another animal, she may get distracted.",
-        "spanish": "Si ve una ardilla u otro animal, puede distraerse.",
+        "english": "If she sees a <span class='unknown-word'>squirrel</span> or another animal, she may get <span class='unknown-word'>distracted</span>.",
+        "spanish": "Si ve una <span class='unknown-word'>ardilla</span> u otro animal, puede <span class='unknown-word'>distraerse</span>.",
         "keywords": ["squirrel", "distracted", "ardilla", "distraerse"]
     },
     {
-        "english": "And that can be dangerous for both of us!",
-        "spanish": "¡Y eso puede ser peligroso para ambos!",
+        "english": "And that can be <span class='unknown-word'>dangerous</span> for both of us!",
+        "spanish": "¡Y eso puede ser <span class='unknown-word'>peligroso</span> para ambos!",
         "keywords": ["dangerous", "peligroso"]
     },
     {
-        "english": "I still think about Quinn every day.",
-        "spanish": "Todavía pienso en Quinn todos los días.",
+        "english": "I still <span class='unknown-word'>think</span> about Quinn <span class='unknown-word'>every day</span>.",
+        "spanish": "Todavía <span class='unknown-word'>pienso</span> en Quinn <span class='unknown-word'>todos los días</span>.",
         "keywords": ["think", "every day", "pienso", "todos los días"]
     },
     {
-        "english": "I am so happy he inspired me to start running.",
-        "spanish": "Estoy muy feliz de que él me inspirara a empezar a correr.",
+        "english": "I am so <span class='unknown-word'>happy</span> he <span class='unknown-word'>inspired</span> me to start <span class='unknown-word'>running</span>.",
+        "spanish": "Estoy muy <span class='unknown-word'>feliz</span> de que él me <span class='unknown-word'>inspirara</span> a empezar a <span class='unknown-word'>correr</span>.",
         "keywords": ["happy", "inspired", "running", "feliz", "inspirara", "correr"]
     }
+]
 ]
 
         // Inicializar la aplicación
