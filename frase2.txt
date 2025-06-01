@@ -89,7 +89,7 @@
     keywordsEnglish: ["told", "that", "had", "disease", "blind"],
     keywordsSpanish: ["dijo", "que", "tenía", "enfermedad", "ciego"]
   },
-      {
+    {
     english: "I was already losing my vision, and I was only 22.",
     spanish: "Ya estaba perdiendo mi visión, y solo tenía 22 años.",
     keywordsEnglish: ["", "", "", ""],
