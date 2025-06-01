@@ -206,63 +206,63 @@
       {
     english: "But my friends stayed in the city to watch the Boston Marathon, which was going to happen the next day.",
     spanish: "Pero mis amigos se quedaron en la ciudad para ver el Maratón de Boston, que iba a ocurrir al día siguiente.",
-    keywordsEnglish: ["", "", "", ""],
-    keywordsSpanish: []
+    keywordsEnglish: ["stayed", "watch", "which", "happen"],
+    keywordsSpanish: ["quedó", "observar", "que", "suceder"]
   },
         {
     english: "On the day of the marathon, I watched the news and heard about an explosion at the finish line.",
     spanish: "El día del maratón, vi las noticias y escuché sobre una explosión en la línea de meta.",
-    keywordsEnglish: ["", "", "", ""],
-    keywordsSpanish: []
+    keywordsEnglish: ["watched", "heard"],
+    keywordsSpanish: ["Observado", "escuchado"]
   },
       {
     english: "At first, I was in shock.",
-    spanish: "Al principio, estaba en shock.",
-    keywordsEnglish: ["", "", "", ""],
-    keywordsSpanish: []
+    spanish: "Al principio, estaba en conmoción.",
+    keywordsEnglish: ["At first", "shock"],
+    keywordsSpanish: ["Al principio", "conmoción"]
   },
         {
     english: "But then, after that tragic bombing, I knew that I had to run in the Boston Marathon the next year.",
     spanish: "Pero luego, después de ese trágico atentado, supe que tenía que correr en el Maratón de Boston el año siguiente.",
-    keywordsEnglish: ["", "", "", ""],
-    keywordsSpanish: []
+    keywordsEnglish: ["then", "after", "that", "knew", "had"],
+    keywordsSpanish: ["entonces", "después", "que", "sabía", "tenía"]
   },
       {
     english: "I wanted to show that horrible violence couldn’t stop people from enjoying that amazing event.",
     spanish: "Quería mostrar que esa horrible violencia no podía detener a las personas de disfrutar ese evento increíble.",
-    keywordsEnglish: ["", "", "", ""],
-    keywordsSpanish: []
+    keywordsEnglish: ["wanted", "show", "could", "enjoying", "that", "amazing"],
+    keywordsSpanish: ["quería", "mostraba", "podría", "disfrutando", "eso", "increíble"]
   },
         {
     english: "Quinn and I started running a lot.",
     spanish: "Quinn y yo empezamos a correr mucho.",
-    keywordsEnglish: ["", "", "", ""],
-    keywordsSpanish: []
+    keywordsEnglish: [" started", "running", "a lot"],
+    keywordsSpanish: ["empezó", "corriendo", "mucho"]
   },
       {
     english: "But during some of our runs in the fall, I noticed that Quinn seemed tired.",
     spanish: "Pero durante algunas de nuestras carreras en otoño, noté que Quinn parecía cansado.",
-    keywordsEnglish: ["", "", "", ""],
-    keywordsSpanish: []
+    keywordsEnglish: ["some", "that", "seemed", "tired"],
+    keywordsSpanish: ["algunos", "eso", "parecía", "cansado"]
   },
         {
     english: "So I took him to the veterinarian, and I got very bad news.",
     spanish: "Así que lo llevé al veterinario, y recibí muy malas noticias.",
-    keywordsEnglish: ["", "", "", ""],
-    keywordsSpanish: []
+    keywordsEnglish: ["so", "took", "him", "bad news"],
+    keywordsSpanish: ["así que", "se lo llevó", "lo", "malas noticias"]
   },
       {
     english: "The vet said that Quinn had cancer and he was going to die in a few months.",
     spanish: "El veterinario dijo que Quinn tenía cáncer y que iba a morir en unos pocos meses.",
-    keywordsEnglish: ["", "", "", ""],
-    keywordsSpanish: []
+    keywordsEnglish: ["vet", "said", "few"],
+    keywordsSpanish: ["veterinario", "dijo", "pocos"]
   },
         {
     english: "At that moment, I realized that I wouldn’t just lose my guide dog but also my best friend.",
     spanish: "En ese momento, me di cuenta de que no solo iba a perder a mi perro guía, sino también a mi mejor amigo.",
-    keywordsEnglish: ["", "", "", ""],
-    keywordsSpanish: []
-  },
+    keywordsEnglish: ["At that", "realized", "would", "just", "lose", "also"],
+    keywordsSpanish: ["En ese momento", "se dio cuenta", "simplemente", "perdería", "también"]
+  },---------------------------------------------------------------------------------------------------------------
       {
     english: "The day we put Quinn to sleep, I held him in my arms, and I told him how much I loved him.",
     spanish: "El día que pusimos a dormir a Quinn, lo sostuve en mis brazos, y le dije cuánto lo amaba.",
