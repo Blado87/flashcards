@@ -1,0 +1,397 @@
+phrases = [
+    {
+        "english": "Everyone in the crowd was really excited.",
+        "spanish": "Todos en la multitud estaban muy emocionados.",
+        "keywords": ["everyone", "really", "multitud", "muy"]
+    },
+    {
+        "english": "People applauded as I stepped across the finish line.",
+        "spanish": "La gente aplaudió cuando crucé la línea de meta.",
+        "keywords": ["as", "stepped", "across", "cuando", "pisé", "al otro lado de"]
+    },
+    {
+        "english": "My wonderful dog, Quinn, was right next to me.",
+        "spanish": "Mi maravilloso perro, Quinn, estaba justo a mi lado.",
+        "keywords": ["wonderful", "was", "maravilloso", "estaba"]
+    },
+    {
+        "english": "The people who organized the race took a picture of us at that moment.",
+        "spanish": "Las personas que organizaron la carrera nos tomaron una foto en ese momento.",
+        "keywords": ["who", "took", "that", "us", "que" , "tomó" , "esa", "nos"]
+    },
+    {
+        "english": "In the picture, Quinn and I both look extremely happy.",
+        "spanish": "En la foto, Quinn y yo lucimos extremadamente felices.",
+        "keywords": ["both", "picture", "ambos", "foto"]
+    },
+    {
+        "english": "It really was a great day.",
+        "spanish": "Realmente fue un gran día.",
+        "keywords": ["great", "day", "gran", "día"]
+    },
+    {
+        "english": "We were the first blind person and guide dog to finish the Boston 5K.",
+        "spanish": "Fuimos la primera persona ciega y perro guía en terminar los 5K de Boston.",
+        "keywords": ["blind", "guide dog", "ciega", "perro guía"]
+    },
+    {
+        "english": "No one did it before us.",
+        "spanish": "Nadie lo había hecho antes que nosotros.",
+        "keywords": ["before", "antes", "nadie"]
+    },
+    {
+        "english": "My dog loved running more than anything, so I loved it too.",
+        "spanish": "A mi perro le encantaba correr más que nada, así que a mí también.",
+        "keywords": ["dog", "running", "perro", "correr"]
+    },
+    {
+        "english": "Quinn even inspired me to run one of the biggest races of all: the Boston Marathon.",
+        "spanish": "Quinn incluso me inspiró a correr una de las carreras más grandes de todas: el Maratón de Boston.",
+        "keywords": ["inspired", "races", "inspiró", "carreras"]
+    },
+    {
+        "english": "I was feeling very sick, so I went to the emergency room.",
+        "spanish": "Me sentía muy enfermo, así que fui a la sala de emergencias.",
+        "keywords": ["sick", "emergency room", "enfermo", "sala de emergencias"]
+    },
+    {
+        "english": "After several different tests, the doctor gave me the results.",
+        "spanish": "Después de varias pruebas diferentes, el médico me dio los resultados.",
+        "keywords": ["tests", "doctor", "pruebas", "médico"]
+    },
+    {
+        "english": "I'll never forget the look on his face.",
+        "spanish": "Nunca olvidaré la expresión en su rostro.",
+        "keywords": ["forget", "face", "olvidaré", "rostro"]
+    },
+    {
+        "english": "He took off his glasses and just said, 'Randy...' I knew it was going to be bad news.",
+        "spanish": "Se quitó los lentes y solo dijo: 'Randy...' Supe que serían malas noticias.",
+        "keywords": ["glasses", "bad news", "lentes", "malas noticias"]
+    },
+    {
+        "english": "He told me that I had a rare neurological disease and I was going to be blind.",
+        "spanish": "Me dijo que tenía una enfermedad neurológica rara y que me quedaría ciego.",
+        "keywords": ["neurological", "disease", "neurológica", "enfermedad"]
+    },
+    {
+        "english": "I was already losing my vision, and I was only 22.",
+        "spanish": "Ya estaba perdiendo la visión, y solo tenía 22 años.",
+        "keywords": ["losing", "vision", "perdiendo", "visión"]
+    },
+    {
+        "english": "I was in shock.",
+        "spanish": "Estaba en shock.",
+        "keywords": ["shock"]
+    },
+    {
+        "english": "I was so young, and my future seemed so dark.",
+        "spanish": "Era tan joven, y mi futuro parecía tan oscuro.",
+        "keywords": ["young", "future", "joven", "futuro"]
+    },
+    {
+        "english": "Walking was also becoming difficult.",
+        "spanish": "Caminar también se estaba volviendo difícil.",
+        "keywords": ["walking", "difficult", "caminar", "difícil"]
+    },
+    {
+        "english": "For a while, I even had to use a wheelchair.",
+        "spanish": "Por un tiempo, incluso tuve que usar una silla de ruedas.",
+        "keywords": ["while", "wheelchair", "tiempo", "silla de ruedas"]
+    },
+    {
+        "english": "I couldn't walk, and that was really hard for me.",
+        "spanish": "No podía caminar, y eso fue muy difícil para mí.",
+        "keywords": ["walk", "hard", "caminar", "difícil"]
+    },
+    {
+        "english": "I thought a guide dog could help me walk and become independent again.",
+        "spanish": "Pensé que un perro guía podría ayudarme a caminar y ser independiente nuevamente.",
+        "keywords": ["guide dog", "independent", "perro guía", "independiente"]
+    },
+    {
+        "english": "So, I contacted a local organization that offered guide dogs for blind people.",
+        "spanish": "Así que contacté a una organización local que ofrecía perros guía para personas ciegas.",
+        "keywords": ["contacted", "organization", "contacté", "organización"]
+    },
+    {
+        "english": "And then I went to New York to get my dog. That's when I first met Quinn.",
+        "spanish": "Y luego fui a Nueva York a buscar a mi perro. Fue entonces cuando conocí a Quinn por primera vez.",
+        "keywords": ["New York", "met", "Nueva York", "conocí"]
+    },
+    {
+        "english": "At first, he didn't notice me at all! He was too interested in his toys.",
+        "spanish": "¡Al principio no me notó en absoluto! Estaba demasiado interesado en sus juguetes.",
+        "keywords": ["notice", "toys", "notó", "juguetes"]
+    },
+    {
+        "english": "Then I knew how to connect with Quinn: by playing!",
+        "spanish": "Entonces supe cómo conectar con Quinn: ¡jugando!",
+        "keywords": ["connect", "playing", "conectar", "jugando"]
+    },
+    {
+        "english": "Quinn and I always played after we went on a walk.",
+        "spanish": "Quinn y yo siempre jugábamos después de dar un paseo.",
+        "keywords": ["played", "walk", "jugábamos", "paseo"]
+    },
+    {
+        "english": "One day, he got a little too excited.",
+        "spanish": "Un día, se emocionó un poco demasiado.",
+        "keywords": ["day", "excited", "día", "emocionó"]
+    },
+    {
+        "english": "He couldn't wait to play, so we started walking really fast.",
+        "spanish": "No podía esperar para jugar, así que empezamos a caminar muy rápido.",
+        "keywords": ["wait", "play", "esperar", "jugar"]
+    },
+    {
+        "english": "Soon, we started running.",
+        "spanish": "Pronto, empezamos a correr.",
+        "keywords": ["soon", "running", "pronto", "correr"]
+    },
+    {
+        "english": "After that, we ran together all the time, and that changed my life.",
+        "spanish": "Después de eso, corrimos juntos todo el tiempo, y eso cambió mi vida.",
+        "keywords": ["ran", "together", "changed", "corrimos", "cambió"]
+    },
+    {
+        "english": "After we did really well during that 5K, I celebrated with some of my running friends.",
+        "spanish": "Después de que nos fue muy bien en esos 5K, celebré con algunos de mis amigos corredores.",
+        "keywords": ["celebrated", "running friends", "celebré", "corredores"]
+    },
+    {
+        "english": "Then I went back to the state of New Hampshire.",
+        "spanish": "Luego volví al estado de New Hampshire.",
+        "keywords": ["went back", "New Hampshire", "volví"]
+    },
+    {
+        "english": "But my friends stayed in the city to watch the Boston Marathon, which was going to happen the next day.",
+        "spanish": "Pero mis amigos se quedaron en la ciudad para ver el Maratón de Boston, que tendría lugar al día siguiente.",
+        "keywords": ["stayed", "Boston Marathon", "quedaron", "Maratón de Boston"]
+    },
+    {
+        "english": "On the day of the marathon, I watched the news and heard about an explosion at the finish line.",
+        "spanish": "El día del maratón, vi las noticias y escuché sobre una explosión en la línea de meta.",
+        "keywords": ["marathon", "explosion", "maratón", "explosión"]
+    },
+    {
+        "english": "At first, I was in shock.",
+        "spanish": "Al principio, estaba en shock.",
+        "keywords": ["shock"]
+    },
+    {
+        "english": "But then, after that tragic bombing, I knew that I had to run in the Boston Marathon the next year.",
+        "spanish": "Pero luego, después de ese trágico atentado, supe que tenía que correr el Maratón de Boston al año siguiente.",
+        "keywords": ["tragic", "bombing", "trágico", "atentado"]
+    },
+    {
+        "english": "I wanted to show that horrible violence couldn’t stop people from enjoying that amazing event.",
+        "spanish": "Quería demostrar que la violencia horrible no podía impedir que la gente disfrutara de ese evento increíble.",
+        "keywords": ["violence", "amazing event", "violencia", "evento increíble"]
+    },
+    {
+        "english": "Quinn and I started running a lot.",
+        "spanish": "Quinn y yo empezamos a correr mucho.",
+        "keywords": ["started", "running", "empezamos", "correr"]
+    },
+    {
+        "english": "But during some of our runs in the fall, I noticed that Quinn seemed tired.",
+        "spanish": "Pero durante algunas de nuestras carreras en otoño, noté que Quinn parecía cansado.",
+        "keywords": ["fall", "tired", "otoño", "cansado"]
+    },
+    {
+        "english": "So I took him to the veterinarian, and I got very bad news.",
+        "spanish": "Así que lo llevé al veterinario y recibí muy malas noticias.",
+        "keywords": ["veterinarian", "bad news", "veterinario", "malas noticias"]
+    },
+    {
+        "english": "The vet said that Quinn had cancer and he was going to die in a few months.",
+        "spanish": "El veterinario dijo que Quinn tenía cáncer y que moriría en unos meses.",
+        "keywords": ["vet", "cancer", "die", "veterinario", "cáncer", "moriría"]
+    },
+    {
+        "english": "At that moment, I realized that I wouldn’t just lose my guide dog but also my best friend.",
+        "spanish": "En ese momento, me di cuenta de que no solo perdería a mi perro guía, sino también a mi mejor amigo.",
+        "keywords": ["realized", "guide dog", "best friend", "di cuenta", "perro guía", "mejor amigo"]
+    },
+    {
+        "english": "The day we put Quinn to sleep, I held him in my arms, and I told him how much I loved him.",
+        "spanish": "El día que dormimos a Quinn, lo sostuve en mis brazos y le dije cuánto lo amaba.",
+        "keywords": ["put to sleep", "held", "loved", "dormimos", "sostuve", "amaba"]
+    },
+    {
+        "english": "He died while I was hugging him.",
+        "spanish": "Murió mientras lo abrazaba.",
+        "keywords": ["died", "hugging", "murió", "abrazaba"]
+    },
+    {
+        "english": "I immediately knew that the best way to honor my boy, Quinn, was to run in the Boston Marathon.",
+        "spanish": "Inmediatamente supe que la mejor manera de honrar a mi chico, Quinn, era correr el Maratón de Boston.",
+        "keywords": ["honor", "Boston Marathon", "honrar", "Maratón de Boston"]
+    },
+    {
+        "english": "It was hard to get out of bed and run in the extremely cold temperatures.",
+        "spanish": "Fue difícil salir de la cama y correr con temperaturas extremadamente frías.",
+        "keywords": ["hard", "cold temperatures", "difícil", "frías"]
+    },
+    {
+        "english": "But because I’m blind, I also had to convince my three guides to run in the cold!",
+        "spanish": "¡Pero como soy ciego, también tuve que convencer a mis tres guías para que corrieran en el frío!",
+        "keywords": ["blind", "guides", "ciego", "guías"]
+    },
+    {
+        "english": "It’s too difficult for a dog to run in a marathon.",
+        "spanish": "Es demasiado difícil para un perro correr un maratón.",
+        "keywords": ["difficult", "dog", "marathon", "difícil", "perro", "maratón"]
+    },
+    {
+        "english": "A dog will become very tired, so most people run with human guides.",
+        "spanish": "Un perro se cansará mucho, por lo que la mayoría de las personas corren con guías humanos.",
+        "keywords": ["tired", "human guides", "cansará", "guías humanos"]
+    },
+    {
+        "english": "I had a group of three people running next to me, taking turns.",
+        "spanish": "Tenía un grupo de tres personas corriendo a mi lado, turnándose.",
+        "keywords": ["group", "taking turns", "grupo", "turnándose"]
+    },
+    {
+        "english": "My guides had to tell me where to turn and when to avoid holes in the road.",
+        "spanish": "Mis guías tenían que decirme dónde girar y cuándo evitar agujeros en el camino.",
+        "keywords": ["guides", "avoid", "holes", "guías", "evitar", "agujeros"]
+    },
+    {
+        "english": "I also had a running stick, which my guides used to help me go in the right direction.",
+        "spanish": "También tenía un bastón para correr, que mis guías usaban para ayudarme a ir en la dirección correcta.",
+        "keywords": ["running stick", "direction", "bastón", "dirección"]
+    },
+    {
+        "english": "That was going to be very difficult.",
+        "spanish": "Eso iba a ser muy difícil.",
+        "keywords": ["difficult", "difícil"]
+    },
+    {
+        "english": "I needed to run one mile in nine minutes for all 26.2 miles of the marathon — without being able to see! That’s 30 minutes faster than the average person who isn’t blind!",
+        "spanish": "Necesitaba correr una milla en nueve minutos durante todas las 26.2 millas del maratón, ¡sin poder ver! ¡Eso es 30 minutos más rápido que la persona promedio que no es ciega!",
+        "keywords": ["run", "marathon", "blind", "correr", "maratón", "ciego"]
+    },
+    {
+        "english": "The weather was terrible.",
+        "spanish": "El clima era terrible.",
+        "keywords": ["weather", "terrible", "clima"]
+    },
+    {
+        "english": "There were strong winds, and it was also raining! It’s really difficult for a blind person to run while it’s raining.",
+        "spanish": "¡Había vientos fuertes y también estaba lloviendo! Es muy difícil para una persona ciega correr mientras llueve.",
+        "keywords": ["strong winds", "raining", "blind", "vientos fuertes", "lloviendo", "ciega"]
+    },
+    {
+        "english": "I knew it was going to be a hard day.",
+        "spanish": "Sabía que iba a ser un día duro.",
+        "keywords": ["hard day", "duro"]
+    },
+    {
+        "english": "But I tied my shoes and put on a shirt that said 'Miles for Quinn.' And then I went to the start line.",
+        "spanish": "Pero me até los zapatos y me puse una camiseta que decía 'Millas por Quinn'. Y luego fui a la línea de salida.",
+        "keywords": ["shoes", "shirt", "start line", "zapatos", "camiseta", "línea de salida"]
+    },
+    {
+        "english": "I got ready to start the race.",
+        "spanish": "Me preparé para comenzar la carrera.",
+        "keywords": ["ready", "start", "race", "preparé", "comenzar", "carrera"]
+    },
+    {
+        "english": "I was next to 30,000 other runners.",
+        "spanish": "Estaba junto a otros 30,000 corredores.",
+        "keywords": ["runners", "corredores"]
+    },
+    {
+        "english": "I was nervous, and my heart was racing, but when I heard the gun…I just thought of Quinn.",
+        "spanish": "Estaba nervioso y mi corazón latía fuerte, pero cuando escuché el disparo… solo pensé en Quinn.",
+        "keywords": ["nervous", "heart", "gun", "nervioso", "corazón", "disparo"]
+    },
+    {
+        "english": "And I ran and ran.",
+        "spanish": "Y corrí y corrí.",
+        "keywords": ["ran", "corrí"]
+    },
+    {
+        "english": "Everything was going well, and I felt strong until we were almost at 'Heartbreak Hill.'",
+        "spanish": "Todo iba bien y me sentía fuerte hasta que estuvimos casi en 'Heartbreak Hill'.",
+        "keywords": ["going well", "strong", "Heartbreak Hill", "iba bien", "fuerte"]
+    },
+    {
+        "english": "Each step was painful.",
+        "spanish": "Cada paso era doloroso.",
+        "keywords": ["step", "painful", "paso", "doloroso"]
+    },
+    {
+        "english": "But then I thought of my boy, Quinn.",
+        "spanish": "Pero entonces pensé en mi chico, Quinn.",
+        "keywords": ["thought", "Quinn", "pensé"]
+    },
+    {
+        "english": "I thought about him sitting in my lap.",
+        "spanish": "Pensé en él sentado en mi regazo.",
+        "keywords": ["lap", "regazo"]
+    },
+    {
+        "english": "I remembered hiking with him in New Hampshire and running on the roads by my house.",
+        "spanish": "Recordé caminar con él en New Hampshire y correr por los caminos cerca de mi casa.",
+        "keywords": ["remembered", "hiking", "running", "recordé", "caminar", "correr"]
+    },
+    {
+        "english": "My memories of Quinn helped me get up that hill.",
+        "spanish": "Mis recuerdos de Quinn me ayudaron a subir esa colina.",
+        "keywords": ["memories", "helped", "hill", "recuerdos", "ayudaron", "colina"]
+    },
+    {
+        "english": "And when I got to the top, I shouted, 'I love you, Quinn boy!' Quinn made me feel strong.",
+        "spanish": "Y cuando llegué a la cima, grité: '¡Te amo, chico Quinn!' Quinn me hizo sentir fuerte.",
+        "keywords": ["top", "shouted", "strong", "cima", "grité", "fuerte"]
+    },
+    {
+        "english": "I was able to cross the finish line…in three hours and 50 minutes!",
+        "spanish": "¡Pude cruzar la línea de meta… en tres horas y 50 minutos!",
+        "keywords": ["cross", "finish line", "cruzar", "línea de meta"]
+    },
+    {
+        "english": "Autumn is my new dog.",
+        "spanish": "Autumn es mi perro nuevo.",
+        "keywords": ["Autumn", "dog", "perro"]
+    },
+    {
+        "english": "She’s a Labrador like Quinn.",
+        "spanish": "Es una labradora como Quinn.",
+        "keywords": ["Labrador", "como Quinn"]
+    },
+    {
+        "english": "We got her from the same organization that helps blind people.",
+        "spanish": "La obtuvimos de la misma organización que ayuda a personas ciegas.",
+        "keywords": ["organization", "blind people", "organización", "personas ciegas"]
+    },
+    {
+        "english": "But Autumn is not a runner like Quinn.",
+        "spanish": "Pero Autumn no es corredora como Quinn.",
+        "keywords": ["runner", "corredora"]
+    },
+    {
+        "english": "If she sees a squirrel or another animal, she may get distracted.",
+        "spanish": "Si ve una ardilla u otro animal, puede distraerse.",
+        "keywords": ["squirrel", "distracted", "ardilla", "distraerse"]
+    },
+    {
+        "english": "And that can be dangerous for both of us!",
+        "spanish": "¡Y eso puede ser peligroso para ambos!",
+        "keywords": ["dangerous", "peligroso"]
+    },
+    {
+        "english": "I still think about Quinn every day.",
+        "spanish": "Todavía pienso en Quinn todos los días.",
+        "keywords": ["think", "every day", "pienso", "todos los días"]
+    },
+    {
+        "english": "I am so happy he inspired me to start running.",
+        "spanish": "Estoy muy feliz de que él me inspirara a empezar a correr.",
+        "keywords": ["happy", "inspired", "running", "feliz", "inspirara", "correr"]
+    }
+]
