@@ -86,7 +86,7 @@ body {
 }
 
 .unknown-word {
-  border-bottom: 2px solid #fd7e14;
+  border-bottom: 2px solid #FEB272;
   padding: 0 3px;
 }
 
@@ -173,7 +173,6 @@ body {
   cursor: pointer;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   transition: background-color 0.3s;
-  margin-bottom: 20px;
 }
 
 .next-button:hover {
