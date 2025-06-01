@@ -88,121 +88,121 @@
     spanish: "Me dijo que tenía una rara enfermedad neurológica y que iba a quedarme ciego.",
     keywordsEnglish: ["told", "that", "had", "disease", "blind"],
     keywordsSpanish: ["dijo", "que", "tenía", "enfermedad", "ciego"]
-  },
+  }, ------------------------------------------------------------------------------
     {
     english: "I was already losing my vision, and I was only 22.",
     spanish: "Ya estaba perdiendo mi visión, y solo tenía 22 años.",
-    keywordsEnglish: ["", "", "", ""],
-    keywordsSpanish: []
+    keywordsEnglish: ["already", "losing", "only", "was"],
+    keywordsSpanish: ["ya", "perdiendo", "sólo", "estaba"]
   },
       {
     english: "I was in shock.",
-    spanish: "Estaba en shock.",
-    keywordsEnglish: ["", "", "", ""],
-    keywordsSpanish: []
+    spanish: "Estaba en conmocionado.",
+    keywordsEnglish: ["was", "shock"],
+    keywordsSpanish: ["fue", "conmocionó"]
   },
       {
     english: "I was so young, and my future seemed so dark.",
     spanish: "Era tan joven, y mi futuro parecía tan oscuro.",
-    keywordsEnglish: ["", "", "", ""],
-    keywordsSpanish: []
+    keywordsEnglish: ["so", "young", "seemed", "was"],
+    keywordsSpanish: ["tan", "joven", "parecía", "era"]
   },
       {
     english: "Walking was also becoming difficult.",
     spanish: "Caminar también se estaba volviendo difícil.",
-    keywordsEnglish: ["", "", "", ""],
-    keywordsSpanish: []
+    keywordsEnglish: ["Walking", "also", "becoming", "difficult"],
+    keywordsSpanish: ["Caminar", "también", "volverse", "difícil"]
   },
       {
     english: "For a while, I even had to use a wheelchair.",
     spanish: "Por un tiempo, incluso tuve que usar una silla de ruedas.",
-    keywordsEnglish: ["", "", "", ""],
-    keywordsSpanish: []
+    keywordsEnglish: ["while", "even", "had", "wheelchair"],
+    keywordsSpanish: ["mientras", "incluso", "tenía", "silla de ruedas"]
   },
       {
     english: "I couldn’t walk, and that was really hard for me.",
     spanish: "No podía caminar, y eso fue realmente difícil para mí.",
-    keywordsEnglish: ["", "", "", ""],
-    keywordsSpanish: []
+    keywordsEnglish: ["could", "walk", "that", "really", "hard"],
+    keywordsSpanish: ["podría", "caminar", "eso", "realmente", "duro"]
   },
       {
     english: "I thought a guide dog could help me walk and become independent again.",
     spanish: "Pensé que un perro guía podía ayudarme a caminar y volverme independiente otra vez.",
-    keywordsEnglish: ["", "", "", ""],
-    keywordsSpanish: []
+    keywordsEnglish: ["thought", "could", "walk", "become", "again"],
+    keywordsSpanish: ["pensé", "podría", "caminar", "volverse", "otra vez"]
   },
       {
     english: "So, I contacted a local organization that offered guide dogs for blind people.",
     spanish: "Así que contacté a una organización local que ofrecía perros guía para personas ciegas.",
-    keywordsEnglish: ["", "", "", ""],
-    keywordsSpanish: []
+    keywordsEnglish: ["so", "that", "blind", "offered"],
+    keywordsSpanish: ["así que", "que", "ciego", "ofrecía"]
   },
       {
     english: "And then I went to New York to get my dog.",
     spanish: "Y luego fui a Nueva York a buscar a mi perro.",
-    keywordsEnglish: ["", "", "", ""],
-    keywordsSpanish: []
+    keywordsEnglish: ["then", "went", "get"],
+    keywordsSpanish: ["luego", "fue", "conseguir"]
   },
       {
     english: "That’s when I first met Quinn.",
     spanish: "Ahí fue cuando conocí a Quinn por primera vez.",
-    keywordsEnglish: ["", "", "", ""],
-    keywordsSpanish: []
+    keywordsEnglish: ["That", "when", "first met"],
+    keywordsSpanish: ["Eso", "cuando", "conocimos por primera vez"]
   },
       {
     english: "At first, he didn’t notice me at all! He was too interested in his toys.",
     spanish: "Al principio, ¡ni siquiera me notó! Estaba demasiado interesado en sus juguetes.",
-    keywordsEnglish: ["", "", "", ""],
-    keywordsSpanish: []
+    keywordsEnglish: ["At first", "at all", "too", "his"],
+    keywordsSpanish: ["Al principio", "en absoluto", "también", "suyo"]
   },
       {
     english: "Then I knew how to connect with Quinn: by playing!.",
     spanish: "Entonces supe cómo conectar con Quinn: ¡jugando!",
-    keywordsEnglish: ["", "", "", ""],
-    keywordsSpanish: []
+    keywordsEnglish: ["then", "knew", "how", "with"],
+    keywordsSpanish: ["entonces", "sabía", "cómo", "con"]
   },
         {
     english: "Quinn and I always played after we went on a walk.",
     spanish: "Quinn y yo siempre jugábamos después de salir a caminar.",
-    keywordsEnglish: ["", "", "", ""],
-    keywordsSpanish: []
+    keywordsEnglish: ["always", "after", "went", "walk"],
+    keywordsSpanish: ["siempre", "después", "fue", "caminar"]
   },
       {
     english: "One day, he got a little too excited.",
     spanish: "Un día, se emocionó un poco demasiado.",
-    keywordsEnglish: ["", "", "", ""],
-    keywordsSpanish: []
+    keywordsEnglish: ["got", "little", "too", "excited"],
+    keywordsSpanish: ["Tengo", "poco", "demasiado", "emocionado"]
   },
         {
     english: "He couldn’t wait to play, so we started walking really fast.",
     spanish: "No podía esperar para jugar, así que empezamos a caminar muy rápido.",
-    keywordsEnglish: ["", "", "", ""],
-    keywordsSpanish: []
+    keywordsEnglish: ["could", "wait", "so", "walking", "really", "fast"],
+    keywordsSpanish: ["podría", "esperar", "así que", "caminando", "realmente", "rápido"]
   },
       {
     english: "Soon, we started running.",
     spanish: "Pronto, empezamos a correr.",
-    keywordsEnglish: ["", "", "", ""],
-    keywordsSpanish: []
+    keywordsEnglish: ["soon", "started", "running"],
+    keywordsSpanish: ["pronto", "comenzó", "corriendo"]
   },
         {
     english: "After that, we ran together all the time, and that changed my life.",
     spanish: "Después de eso, corrimos juntos todo el tiempo, y eso cambió mi vida.",
-    keywordsEnglish: ["", "", "", ""],
-    keywordsSpanish: []
+    keywordsEnglish: ["After", "that", "together", "that", "changed"],
+    keywordsSpanish: ["Después", "que", "juntos", "que", "cambió"]
   },
       {
     english: "After we did really well during that 5K, I celebrated with some of my running friends.",
     spanish: "Después de que lo hicimos muy bien en ese 5K, celebré con algunos de mis amigos corredores.",
-    keywordsEnglish: ["", "", "", ""],
-    keywordsSpanish: []
+    keywordsEnglish: ["After", "really", "well", "with", "some"],
+    keywordsSpanish: ["Después", "realmente", "bueno", "con", "algunos"]
   },
         {
     english: "Then I went back to the state of New Hampshire.",
     spanish: "Luego volví al estado de New Hampshire.",
-    keywordsEnglish: ["", "", "", ""],
-    keywordsSpanish: []
-  },
+    keywordsEnglish: ["then", "went", "back", "state"],
+    keywordsSpanish: ["luego", "fue", "regresó", "estado"]
+  }, -----------------------------------------------------------------------------------
       {
     english: "But my friends stayed in the city to watch the Boston Marathon, which was going to happen the next day.",
     spanish: "Pero mis amigos se quedaron en la ciudad para ver el Maratón de Boston, que iba a ocurrir al día siguiente.",
