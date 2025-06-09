@@ -266,111 +266,111 @@
       {
     english: "The day we put Quinn to sleep, I held him in my arms, and I told him how much I loved him.",
     spanish: "El día que pusimos a dormir a Quinn, lo sostuve en mis brazos, y le dije cuánto lo amaba.",
-    keywordsEnglish: ["", "", "", ""],
-    keywordsSpanish: []
+    keywordsEnglish: ["sleep", "held", "him", "arms", "told", "how much"],
+    keywordsSpanish: ["dormir", "sostenido", "él", "brazos", "dijeron", "cuánto"]
   },
         {
     english: "He died while I was hugging him.",
     spanish: "Murió mientras lo abrazaba.",
-    keywordsEnglish: ["", "", "", ""],
-    keywordsSpanish: []
+    keywordsEnglish: ["died", "while", "hugging", "him"],
+    keywordsSpanish: ["fallecido", "mientras", "abrazándolo", "a él"]
   },
         {
     english: "I immediately knew that the best way to honor my boy, Quinn, was to run in the Boston Marathon.",
     spanish: "Inmediatamente supe que la mejor manera de honrar a mi chico, Quinn, era correr en el Maratón de Boston.",
-    keywordsEnglish: ["", "", "", ""],
-    keywordsSpanish: []
+    keywordsEnglish: ["knew", "way"],
+    keywordsSpanish: ["sabía", "camino"]
   },
         {
     english: "It was hard to get out of bed and run in the extremely cold temperatures.",
     spanish: "Era difícil levantarse de la cama y correr en temperaturas extremadamente frías.",
-    keywordsEnglish: ["", "", "", ""],
-    keywordsSpanish: []
+    keywordsEnglish: ["get out", "bed"],
+    keywordsSpanish: ["salir", "cama"]
   },
         {
     english: "But because I’m blind, I also had to convince my three guides to run in the cold!.",
     spanish: "Pero como soy ciego, ¡también tuve que convencer a mis tres guías de correr en el frío!",
-    keywordsEnglish: ["", "", "", ""],
-    keywordsSpanish: []
+    keywordsEnglish: ["because", "blind", "also", "had", "convince"],
+    keywordsSpanish: ["porque", "ciego", "también", "tenía", "convencer"]
   },
         {
     english: "It’s too difficult for a dog to run in a marathon.",
     spanish: "Es demasiado difícil para un perro correr en un maratón.",
-    keywordsEnglish: ["", "", "", ""],
-    keywordsSpanish: []
+    keywordsEnglish: ["too", "difficult"],
+    keywordsSpanish: ["demasiado", "difícil"]
   },
         {
     english: "A dog will become very tired, so most people run with human guides.",
     spanish: "Un perro se cansará mucho, así que la mayoría de las personas corren con guías humanos.",
-    keywordsEnglish: ["", "", "", ""],
-    keywordsSpanish: []
+    keywordsEnglish: ["become", "tired", "so", "most"],
+    keywordsSpanish: ["estar", "cansado", "tan", "la mayoría"]
   },
         {
     english: "I had a group of three people running next to me, taking turns.",
     spanish: "Tenía un grupo de tres personas corriendo a mi lado, turnándose.",
-    keywordsEnglish: ["", "", "", ""],
-    keywordsSpanish: []
+    keywordsEnglish: ["had", "group", "taking", "turns"],
+    keywordsSpanish: ["tenía", "grupo", "tomando", "turnos"]
   },
         {
     english: "My guides had to tell me where to turn and when to avoid holes in the road.",
     spanish: "Mis guías tenían que decirme dónde girar y cuándo evitar huecos en el camino.",
-    keywordsEnglish: ["", "", "", ""],
-    keywordsSpanish: []
+    keywordsEnglish: ["had", "tell", "where", "when", "avoid", "holes", "road"],
+    keywordsSpanish: ["tenía", "decir", "dónde", "cuándo", "evitar", "agujeros", "camino"]
   },
           {
     english: "I also had a running stick, which my guides used to help me go in the right direction.",
     spanish: "También tenía un bastón de correr, que mis guías usaban para ayudarme a ir en la dirección correcta.",
-    keywordsEnglish: ["", "", "", ""],
-    keywordsSpanish: []
+    keywordsEnglish: ["also", "had", "stick", "right direction"],
+    keywordsSpanish: ["también", "tenía", "pegarse", "dirección correcta"]
   },
         {
     english: "That was going to be very difficult.",
     spanish: "Eso iba a ser muy difícil.",
-    keywordsEnglish: ["", "", "", ""],
-    keywordsSpanish: []
+    keywordsEnglish: ["That", "was going", "difficult"],
+    keywordsSpanish: ["Eso", "estaba yendo", "difícil"]
   },
           {
     english: "I needed to run one mile in nine minutes for all 26.2 miles of the marathon — without being able to see!",
     spanish: "Necesitaba correr una milla en nueve minutos por las 26.2 millas del maratón — ¡sin poder ver!",
-    keywordsEnglish: ["", "", "", ""],
-    keywordsSpanish: []
+    keywordsEnglish: ["needed", "without", "being", "able"],
+    keywordsSpanish: ["necesario", "sin", "ser", "capaz"]
   },
         {
     english: "That’s 30 minutes faster than the average person who isn’t blind!.",
     spanish: "¡Eso es 30 minutos más rápido que la persona promedio que no es ciega!",
-    keywordsEnglish: ["", "", "", ""],
-    keywordsSpanish: []
+    keywordsEnglish: ["That", "faster", "than", "average", "who"],
+    keywordsSpanish: ["Eso", "más rápido", "que", "promedio", "quién"]
   },
           {
     english: "The weather was terrible.",
     spanish: "El clima estaba terrible.",
-    keywordsEnglish: ["", "", "", ""],
-    keywordsSpanish: []
+    keywordsEnglish: ["weather", "was", "terrible"],
+    keywordsSpanish: ["clima", "era", "terrible"]
   },
         {
     english: "There were strong winds, and it was also raining!",
     spanish: Había vientos fuertes, ¡y también estaba lloviendo!",
-    keywordsEnglish: ["", "", "", ""],
-    keywordsSpanish: []
+    keywordsEnglish: ["strong", "winds", "also", "raining"],
+    keywordsSpanish: ["fuerte", "vientos", "también", "lloviendo"]
   },
           {
     english: "It’s really difficult for a blind person to run while it’s raining.",
     spanish: "Es realmente difícil para una persona ciega correr mientras llueve.",
-    keywordsEnglish: ["", "", "", ""],
-    keywordsSpanish: []
+    keywordsEnglish: ["really", " blind", "while", "raining"],
+    keywordsSpanish: ["realmente", "ciego", "mientras", "lloviendo"]
   },
         {
     english: "I knew it was going to be a hard day.",
     spanish: "Sabía que iba a ser un día difícil.",
-    keywordsEnglish: ["", "", "", ""],
-    keywordsSpanish: []
+    keywordsEnglish: ["knew", "hard"],
+    keywordsSpanish: ["Sabía", "Duro"]
   },
           {
     english: "But I tied my shoes and put on a shirt that said “Miles for Quinn.” And then I went to the start line.",
     spanish: "Pero me até los zapatos y me puse una camiseta que decía “Millas por Quinn.” Y luego fui a la línea de salida.",
-    keywordsEnglish: ["", "", "", ""],
-    keywordsSpanish: []
-  },
+    keywordsEnglish: ["tied", "that", "said", "then", "went"],
+    keywordsSpanish: ["atado", "eso", "dijo", "luego", "fue"]
+  }, -----------------------------------------------------------------------------------------------------------------------------
         {
     english: "I got ready to start the race.",
     spanish: "Me preparé para comenzar la carrera.",

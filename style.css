@@ -1,188 +1,80 @@
-* {
+body {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-
-body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  min-height: 100vh;
-  padding: 0 20px;
-  background-color: #E9ECEF;
-}
-
-.app-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
   width: 100%;
   height: 100vh;
 }
 
-.header {
-  display: flex;
-  justify-content: right;
-  margin-bottom: 20px;
-  width: 100%;
-  padding-top: 20px;
-  padding-right: 20px;
-}
-
-.counter {
-  font-size: 18px;
-  color: #6C757D;
-  background-color: #DEE2E6;
-  padding: 5px 10px;
-  border-radius: 15px;
-  font-weight: bold;
-}
-
-.card-container {
-  perspective: 1000px;
-  height: 250px;
-}
-
-.card {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  transform-style: preserve-3d;
-  transition: transform 0.6s;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  border-radius: 15px;
-}
-
-.card.flipped {
-  transform: rotateY(180deg);
-}
-
-.card-face {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-  border-radius: 15px;
-  padding: 20px;
+.cont-header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: white;
+  height: 5%;
 }
 
-.card-back {
-  transform: rotateY(180deg);
-  background-color: #ffffff;
+.cont-button{
+  margin-left: 10px;
 }
 
-.phrase {
-  font-size: 22px;
-  text-align: center;
-  margin-bottom: 15px;
-  line-height: 1.4;
-  color: #212529;
-}
-
-.unknown-word {
-  border-bottom: 2px solid #FEB272;
-  padding: 0 3px;
-}
-
-.flip-button {
-  position: absolute;
-  bottom: 15px;
-  right: 15px;
-  background: none;
-  border: none;
-  font-size: 20px;
-  color: #212529;
-  cursor: pointer;
-}
-
-.keywords-container {
-  border-radius: 10px;
-  padding: 15px;
-  margin-top: 20px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  background-color: white;
-  position: relative;
-}
-
-.keywords-header {
-  font-size: 16px;
-  color: #6c757d;
-  margin-bottom: 10px;
-}
-
-.keywords-footer {
+.cont-main {
   display: flex;
-  justify-content: center;
-  margin-top: 10px;
-}
-
-.toggle-keywords {
-  background: none;
-  border: none;
-  color: #6c757d;
-  cursor: pointer;
-  font-size: 14px;
-  display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 5px;
-  padding: 8px 15px;
-  border-radius: 20px;
-  background-color: #f0f0f0;
+  height: 85%;
 }
 
-.keywords-grid {
-  display: none;
-  flex-wrap: wrap;
-  gap: 8px;
-  justify-content: center;
-  background-color: #f2f2f2;
-  padding: 10px;
-  border-radius: 10px;
-  border: 1px solid rgb(227, 227, 227);
-  transition: all 0.3s ease;
-}
-
-.keywords-grid.visible {
+.counter{
   display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 40px;
+  margin-top: 20px;
 }
 
-.keyword {
-  color: gray;
-  background-color: white;
-  padding: 5px 10px;
-  border-radius: 5px;
-  font-size: 14px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.next-button {
+.cont-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 100%;
-  padding: 15px;
-  background-color: #6610f2;
-  color: white;
-  border: none;
-  border-radius: 10px;
-  font-size: 18px;
-  font-weight: bold;
-  cursor: pointer;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-  transition: background-color 0.3s;
+  margin-top: 30px;
 }
 
-.next-button:hover {
-  background-color: #520dc2;
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 200px;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.language-indicator {
-  position: absolute;
-  top: 15px;
-  left: 15px;
-  font-size: 14px;
-  color: #6c757d;
+.cont-buton-controls{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 50px;
+  margin-top: 20px;
+}
+.cont-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  height: 10%;
+}
+
+.cont-buton-next{
+  width: 50%;
+  padding-left: 10px;
+}
+.cont-buton-previous{
+  width: 50%;
+  padding-right: 10px;
 }

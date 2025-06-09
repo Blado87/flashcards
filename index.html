@@ -1,58 +1,74 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>FlashCard</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- bootstrap css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+  <!-- bootstrap icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+  <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-  <div class="app-container">
-    <div>
-      <!-- centro -->
-      <div class="header">
-        <div class="counter" id="counter">0/0</div>
-      </div>
-      <div class="card-container">
-        <div class="card" id="card">
-          <div class="card-face card-front">
-            <span class="language-indicator">ENGLISH</span>
-            <p class="phrase" id="english-phrase">Cargando...</p>
-            <button class="flip-button" onclick="flipCard()">
-              <i class="fas fa-exchange-alt"></i>
-            </button>
-          </div>
-          <div class="card-face card-back">
-            <span class="language-indicator">ESPAÑOL</span>
-            <p class="phrase" id="spanish-phrase">Cargando...</p>
-            <button class="flip-button" onclick="flipCard()">
-              <i class="fas fa-exchange-alt"></i>
-            </button>
-          </div>
-        </div>
-      </div>
-
-      <div class="keywords-container">
-        <div class="keywords-header">PALABRAS CLAVE</div>
-        <div class="keywords-grid" id="keywords-grid">
-        </div>
-        <div class="keywords-footer">
-          <button class="toggle-keywords" onclick="toggleKeywords()">
-            <i class="fas fa-eye"></i>
-            <span>Mostrar palabras clave</span>
-          </button>
-        </div>
-      </div>
-      <!-- centro -->
+<body class="">
+  <!-- header -->
+  <div class="cont-header">
+    <div class="cont-button">
+      <button type="button" class="btn btn-light">
+        <i class="bi bi-house-door-fill"></i>
+      </button>
     </div>
-
-    <button class="next-button" onclick="nextCard()">SIGUIENTE FRASE</button>
+  </div>
+  <!-- main -->
+  <div class="cont-main">
+    <!-- contador -->
+    <div class="counter bg-primary-subtle rounded-4 text-primary fw-bold fs-5">
+      <span>1 </span> / <span> 32</span>
+    </div>
+    <!-- tarejtas -->
+    <div class="cont-card">
+      <div class="card bg-white border border-1 rounded-2 border-secondary-subtle">
+        <span class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad aspernatur fugit adipisci mollitia odio ipsa hic
+        accusantium.</span>
+      </div>
+    </div>
+    <!-- controles -->
+    <div class="cont-buton-controls">
+      <div>
+        <button type="button" class="btn btn-light">
+          <i class="bi bi-volume-up-fill"></i>
+        </button>
+        <button type="button" class="btn btn-light">
+          <i class="bi bi-arrow-repeat"></i>
+        </button>
+        <button type="button" class="btn btn-light">
+          <i class="bi bi-eye"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+  <!-- footer -->
+  <div class="cont-footer">
+    <div class="cont-buton-next">
+      <div class="d-grid">
+        <button class="btn btn-primary" type="button"><i class="bi bi-chevron-left"></i> Anterior</button>
+      </div>
+    </div>
+    <div class="cont-buton-previous">
+      <div class="d-grid">
+        <button class="btn btn-primary" type="button">Siguiente <i class="bi bi-chevron-right"></i></button>
+      </div>
+    </div>
   </div>
 
-  <script src="script.js"></script>
+  <!-- bootstrap js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
