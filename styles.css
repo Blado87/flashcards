@@ -134,7 +134,7 @@ body, html {
 
 .app__next-button {
   width: 100%;
-  padding: 1rem;
+  padding: 1.5rem;
   font-size: 1.1rem;
   background-color: var(--primary-color);
   color: white;
