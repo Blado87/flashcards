@@ -36,7 +36,7 @@ body, html {
 
 .progress-bar {
   flex-grow: 1;
-  height: 15px;
+  height: 20px;
   background-color: #ccc;
   border-radius: 4px;
   margin-right: 1rem;
@@ -94,7 +94,7 @@ body, html {
 
 .card__ico{
   font-size: 4rem;
-  color: #555;
+  color: #ADB5BD;
 }
 
 .card__highlight {
