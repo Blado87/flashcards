@@ -15,6 +15,7 @@ html {
   font-family: monospace;
   background-color: var(--background-color);
 }
+
 .modal {
   position: fixed;
   top: 0;
@@ -52,14 +53,13 @@ html {
 
 .modal__close-button {
   padding: 0.75rem 1.5rem;
-  background-color: #6949FF;
+  background-color: #d63384;
   color: white;
   border: none;
   border-radius: 8px;
   font-size: 1rem;
   cursor: pointer;
 }
-
 
 .app {
   display: flex;
